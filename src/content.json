@@ -1,0 +1,2780 @@
+{
+  "brand": {
+    "name": "Shafaq",
+    "nameAr": "شفق",
+    "slug": "shafaq",
+    "photographer": {
+      "en": "Idris Karam",
+      "ar": "إدريس كرم"
+    },
+    "role": {
+      "en": "Sky photographer",
+      "ar": "مصوّر سماء"
+    },
+    "city": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "tagline": {
+      "en": "Sky stories, sunrise to moonrise.",
+      "ar": "حكايات السماء، من الشروق إلى طلوع القمر."
+    },
+    "description": {
+      "en": "Shafaq is the portfolio of Idris Karam, a sky photographer based in Muscat. Sunrises, sunsets, moonrises, storms and city lights, with prints and commissions.",
+      "ar": "شفق هو معرض إدريس كرم، مصوّر سماء يقيم في مسقط. شروق وغروب وطلوع قمر وعواصف وأضواء مدن، مع مطبوعات فنية وجلسات تصوير بالطلب."
+    },
+    "handle": "@shafaq.skies",
+    "instagram": "https://www.instagram.com/",
+    "email": "hello@shafaq.example",
+    "whatsapp": {
+      "display": "+1 212 555 0142",
+      "number": "12125550142"
+    }
+  },
+  "ui": {
+    "skip": {
+      "en": "Skip to the work",
+      "ar": "انتقل إلى الأعمال"
+    },
+    "nav": {
+      "work": {
+        "en": "Chapters",
+        "ar": "الفصول"
+      },
+      "sunpath": {
+        "en": "Sun path",
+        "ar": "مسار الشمس"
+      },
+      "about": {
+        "en": "About",
+        "ar": "عنّي"
+      },
+      "prints": {
+        "en": "Prints",
+        "ar": "المطبوعات"
+      },
+      "contact": {
+        "en": "Book",
+        "ar": "احجز"
+      }
+    },
+    "langSwitch": {
+      "en": "عربي",
+      "ar": "EN"
+    },
+    "langSwitchLabel": {
+      "en": "Switch to Arabic",
+      "ar": "التبديل إلى الإنجليزية"
+    },
+    "view": {
+      "en": "View",
+      "ar": "عرض"
+    },
+    "open": {
+      "en": "Open",
+      "ar": "افتح"
+    },
+    "scrollCue": {
+      "en": "Scroll through one day",
+      "ar": "مرّر لتعيش يومًا كاملًا"
+    },
+    "sun": {
+      "en": "Sun",
+      "ar": "الشمس"
+    },
+    "moon": {
+      "en": "Moon",
+      "ar": "القمر"
+    },
+    "photos": {
+      "en": "photographs",
+      "ar": "صورة"
+    },
+    "chapter": {
+      "en": "Chapter",
+      "ar": "الفصل"
+    },
+    "lightbox": {
+      "label": {
+        "en": "Photo viewer",
+        "ar": "عارض الصور"
+      },
+      "close": {
+        "en": "Close",
+        "ar": "إغلاق"
+      },
+      "next": {
+        "en": "Next photo",
+        "ar": "الصورة التالية"
+      },
+      "prev": {
+        "en": "Previous photo",
+        "ar": "الصورة السابقة"
+      },
+      "camera": {
+        "en": "Camera",
+        "ar": "الكاميرا"
+      },
+      "lens": {
+        "en": "Lens",
+        "ar": "العدسة"
+      },
+      "exposure": {
+        "en": "Exposure",
+        "ar": "التعريض"
+      },
+      "time": {
+        "en": "Local time",
+        "ar": "التوقيت المحلي"
+      },
+      "place": {
+        "en": "Place",
+        "ar": "المكان"
+      },
+      "credit": {
+        "en": "Photo",
+        "ar": "تصوير"
+      },
+      "notRecorded": {
+        "en": "Not recorded",
+        "ar": "غير مسجّل"
+      },
+      "swipe": {
+        "en": "Swipe or use the arrow keys",
+        "ar": "اسحب أو استخدم مفاتيح الأسهم"
+      }
+    },
+    "altitude": {
+      "en": "Altitude",
+      "ar": "الارتفاع"
+    },
+    "menu": {
+      "en": "Menu",
+      "ar": "القائمة"
+    }
+  },
+  "hero": {
+    "eyebrow": {
+      "en": "Shafaq · Sky photography",
+      "ar": "شفق · تصوير السماء"
+    },
+    "title": {
+      "en": "One day,\nseven skies.",
+      "ar": "يوم واحد،\nسبع سماوات."
+    },
+    "lede": {
+      "en": "Idris Karam photographs the minutes when the light changes its mind. Scroll and the page follows the sky, from blue hour to the last star.",
+      "ar": "يصوّر إدريس كرم الدقائق التي يغيّر فيها الضوء رأيه. مرّر الصفحة وستتبع السماء معك، من الساعة الزرقاء حتى آخر نجمة."
+    },
+    "stops": [
+      {
+        "photo": "blue-hour-skyline",
+        "phase": {
+          "en": "Blue hour",
+          "ar": "الساعة الزرقاء"
+        },
+        "time": "05:38",
+        "body": "sun",
+        "altitude": -6
+      },
+      {
+        "photo": "dawn-boat",
+        "phase": {
+          "en": "Sunrise",
+          "ar": "الشروق"
+        },
+        "time": "06:04",
+        "body": "sun",
+        "altitude": 1
+      },
+      {
+        "photo": "golden-coast",
+        "phase": {
+          "en": "Golden hour",
+          "ar": "الساعة الذهبية"
+        },
+        "time": "17:21",
+        "body": "sun",
+        "altitude": 7
+      },
+      {
+        "photo": "sunset-boat",
+        "phase": {
+          "en": "Sunset",
+          "ar": "الغروب"
+        },
+        "time": "17:52",
+        "body": "sun",
+        "altitude": 0
+      },
+      {
+        "photo": "dusk-city",
+        "phase": {
+          "en": "Dusk",
+          "ar": "الشفق"
+        },
+        "time": "18:16",
+        "body": "sun",
+        "altitude": -4
+      },
+      {
+        "photo": "moonrise-sea",
+        "phase": {
+          "en": "Moonrise",
+          "ar": "طلوع القمر"
+        },
+        "time": "18:49",
+        "body": "moon",
+        "altitude": 3
+      },
+      {
+        "photo": "milky-way-sea",
+        "phase": {
+          "en": "Night",
+          "ar": "الليل"
+        },
+        "time": "23:10",
+        "body": "sun",
+        "altitude": -38
+      }
+    ]
+  },
+  "chapters": {
+    "kicker": {
+      "en": "Six chapters",
+      "ar": "ستة فصول"
+    },
+    "title": {
+      "en": "What the sky keeps telling",
+      "ar": "ما ترويه السماء كل يوم"
+    },
+    "items": [
+      {
+        "id": "sunrise",
+        "title": {
+          "en": "Sunrise",
+          "ar": "الشروق"
+        },
+        "blurb": {
+          "en": "Cold water, first light, and the quiet before the city wakes. Most of these were made before six.",
+          "ar": "ماء بارد وأول الضوء، وسكون يسبق استيقاظ المدينة. معظم هذه الصور التُقطت قبل السادسة صباحًا."
+        },
+        "cover": "dawn-boat",
+        "photos": [
+          "dawn-boat",
+          "sunrise-sail",
+          "sunrise-haze",
+          "clouds-ember",
+          "sunrise-rooftops",
+          "sunrise-shore"
+        ]
+      },
+      {
+        "id": "sunset",
+        "title": {
+          "en": "Sunset",
+          "ar": "الغروب"
+        },
+        "blurb": {
+          "en": "The loud hour. Boats heading home, glass towers turning copper, the sun touching the sea and staying a little longer than it should.",
+          "ar": "الساعة الصاخبة. قوارب عائدة، وأبراج زجاجية تصير نحاسية، وشمس تلامس البحر وتطيل البقاء أكثر مما ينبغي."
+        },
+        "cover": "sunset-boat",
+        "photos": [
+          "sunset-boat",
+          "sunset-silhouette",
+          "golden-coast",
+          "sunset-storm-sea",
+          "sunset-city-sun",
+          "coastal-golden"
+        ]
+      },
+      {
+        "id": "moon",
+        "title": {
+          "en": "Moon",
+          "ar": "القمر"
+        },
+        "blurb": {
+          "en": "I keep a moonrise calendar on the fridge. The orange ones come up low and huge, and they are gone behind the towers in four minutes.",
+          "ar": "أحتفظ بتقويم لطلوع القمر على باب الثلاجة. القمر البرتقالي يطلع منخفضًا وضخمًا، ثم يختفي خلف الأبراج في أربع دقائق."
+        },
+        "cover": "moon-towers",
+        "photos": [
+          "moon-towers",
+          "moonrise-sea",
+          "moon-path",
+          "crescent-clouds",
+          "moon-dusk-sea",
+          "crescent-detail",
+          "moon-building"
+        ]
+      },
+      {
+        "id": "storms",
+        "title": {
+          "en": "Storms",
+          "ar": "العواصف"
+        },
+        "blurb": {
+          "en": "Thunder season means long nights on a tripod and a lot of empty frames. One good bolt pays for all of them.",
+          "ar": "موسم الرعد يعني ليالي طويلة خلف الحامل وكثيرًا من الإطارات الفارغة. ومضة برق واحدة جيدة تعوّض عنها كلها."
+        },
+        "cover": "lightning-sea",
+        "effect": "lightning",
+        "photos": [
+          "lightning-sea",
+          "lightning-pillars",
+          "shelf-cloud",
+          "lightning-city",
+          "storm-sea",
+          "lightning-lake"
+        ]
+      },
+      {
+        "id": "city",
+        "title": {
+          "en": "City Lights",
+          "ar": "أضواء المدينة"
+        },
+        "blurb": {
+          "en": "When the sky goes dark the city takes over: harbours, highways and windows doing their own version of a sunset.",
+          "ar": "حين تُظلم السماء تتولى المدينة المشهد: موانئ وطرق سريعة ونوافذ تصنع غروبها الخاص."
+        },
+        "cover": "harbour-night",
+        "photos": [
+          "harbour-night",
+          "city-dusk-above",
+          "blue-hour-skyline",
+          "light-trails",
+          "dusk-city",
+          "city-golden-aerial",
+          "skyline-night"
+        ]
+      },
+      {
+        "id": "patterns",
+        "title": {
+          "en": "Patterns",
+          "ar": "الأنماط"
+        },
+        "blurb": {
+          "en": "Lattice, minarets and carved wood against warm light. The sky as a background for the geometry people build under it.",
+          "ar": "مشربيات ومآذن وخشب منقوش في وجه الضوء الدافئ. السماء خلفيةً للهندسة التي يبنيها الناس تحتها."
+        },
+        "cover": "mashrabiya",
+        "photos": [
+          "mashrabiya",
+          "minarets-sunset",
+          "lattice-light",
+          "jali-window",
+          "star-pattern",
+          "wood-geometry"
+        ]
+      }
+    ]
+  },
+  "sunpath": {
+    "kicker": {
+      "en": "Sun path",
+      "ar": "مسار الشمس"
+    },
+    "title": {
+      "en": "Pick a minute of the day.",
+      "ar": "اختر دقيقة من اليوم."
+    },
+    "body": {
+      "en": "Drag the sun around the dial, or focus it and use the arrow keys. Below the horizon it becomes the moon.",
+      "ar": "اسحب الشمس حول القرص، أو حدّدها واستخدم مفاتيح الأسهم. تحت الأفق تصير قمرًا."
+    },
+    "dialLabel": {
+      "en": "Time of day",
+      "ar": "وقت اليوم"
+    },
+    "horizon": {
+      "en": "Horizon",
+      "ar": "الأفق"
+    },
+    "above": {
+      "en": "above the horizon",
+      "ar": "فوق الأفق"
+    },
+    "below": {
+      "en": "below the horizon",
+      "ar": "تحت الأفق"
+    },
+    "sunrise": "06:00",
+    "sunset": "18:00",
+    "maxAltitude": 72,
+    "start": "17:40",
+    "stops": [
+      {
+        "photo": "crescent-clouds",
+        "time": "03:40",
+        "phase": {
+          "en": "Before dawn",
+          "ar": "قبيل الفجر"
+        }
+      },
+      {
+        "photo": "blue-hour-skyline",
+        "time": "05:38",
+        "phase": {
+          "en": "Blue hour",
+          "ar": "الساعة الزرقاء"
+        }
+      },
+      {
+        "photo": "dawn-boat",
+        "time": "06:04",
+        "phase": {
+          "en": "Sunrise",
+          "ar": "الشروق"
+        }
+      },
+      {
+        "photo": "sunrise-sail",
+        "time": "06:40",
+        "phase": {
+          "en": "Morning",
+          "ar": "الصباح"
+        }
+      },
+      {
+        "photo": "cumulus",
+        "time": "11:30",
+        "phase": {
+          "en": "High sun",
+          "ar": "الشمس العالية"
+        }
+      },
+      {
+        "photo": "coastal-golden",
+        "time": "16:40",
+        "phase": {
+          "en": "Late afternoon",
+          "ar": "آخر العصر"
+        }
+      },
+      {
+        "photo": "golden-coast",
+        "time": "17:21",
+        "phase": {
+          "en": "Golden hour",
+          "ar": "الساعة الذهبية"
+        }
+      },
+      {
+        "photo": "sunset-boat",
+        "time": "17:52",
+        "phase": {
+          "en": "Sunset",
+          "ar": "الغروب"
+        }
+      },
+      {
+        "photo": "dusk-city",
+        "time": "18:16",
+        "phase": {
+          "en": "Dusk",
+          "ar": "الشفق"
+        }
+      },
+      {
+        "photo": "moonrise-sea",
+        "time": "18:49",
+        "phase": {
+          "en": "Moonrise",
+          "ar": "طلوع القمر"
+        }
+      },
+      {
+        "photo": "harbour-night",
+        "time": "20:30",
+        "phase": {
+          "en": "City lights",
+          "ar": "أضواء المدينة"
+        }
+      },
+      {
+        "photo": "milky-way-sea",
+        "time": "23:10",
+        "phase": {
+          "en": "Deep night",
+          "ar": "منتصف الليل"
+        }
+      }
+    ]
+  },
+  "night": {
+    "kicker": {
+      "en": "After the last light",
+      "ar": "بعد آخر ضوء"
+    },
+    "title": {
+      "en": "The sky does not switch off. It just changes shift.",
+      "ar": "السماء لا تنطفئ، إنها فقط تبدّل نوبتها."
+    },
+    "photo": "milky-way-coast"
+  },
+  "about": {
+    "kicker": {
+      "en": "Meet the photographer",
+      "ar": "تعرّف على المصوّر"
+    },
+    "title": {
+      "en": "I started with a phone and a rooftop.",
+      "ar": "بدأت بهاتف وسطح بيت."
+    },
+    "portrait": "photographer",
+    "portraitCaption": {
+      "en": "Waiting for the moon, 18:52",
+      "ar": "بانتظار القمر، 18:52"
+    },
+    "inset": "rooftop-start",
+    "insetCaption": {
+      "en": "Where it started: a rooftop and a borrowed tripod.",
+      "ar": "حيث بدأ كل شيء: سطح وحامل مستعار."
+    },
+    "story": [
+      {
+        "en": "I'm Idris. In 2017 I climbed onto the roof of my building in Muscat with a cheap phone and photographed a sunrise I still think about. It was badly exposed and a little crooked, and it changed my mornings for good.",
+        "ar": "أنا إدريس. في عام 2017 صعدت إلى سطح عمارتنا في مسقط بهاتف بسيط، وصوّرت شروقًا ما زلت أفكر فيه حتى اليوم. كانت الصورة سيئة التعريض ومائلة قليلًا، لكنها غيّرت صباحاتي إلى الأبد."
+      },
+      {
+        "en": "The sky is the only view that is never the same twice. To me it is a daily appointment: the city pauses for ten minutes, the light does something it will never repeat, and my job is simply to be there, ready.",
+        "ar": "السماء هي المنظر الوحيد الذي لا يتكرر مرتين. هي بالنسبة لي موعد يومي: تتوقف المدينة عشر دقائق، ويصنع الضوء شيئًا لن يعود، وعملي ببساطة أن أكون هناك، مستعدًا."
+      },
+      {
+        "en": "My approach is mostly patience. I read cloud models and tide tables the way other people read the news, plan moonrises weeks ahead, and drive out at four in the morning when the forecast hints at something. Half the time the sky says no. The other half pays for everything.",
+        "ar": "طريقتي في معظمها صبر. أقرأ خرائط الغيوم وجداول المدّ كما يقرأ غيري الأخبار، وأخطط لطلوع القمر قبل أسابيع، وأخرج في الرابعة فجرًا حين تلمّح النشرة الجوية إلى شيء ما. في نصف المرات تقول السماء لا، والنصف الآخر يعوّض عن كل شيء."
+      },
+      {
+        "en": "I still shoot on my phone first; a small mirrorless kit came later, for storms and long lenses. Between skies there is coffee on the roof, a lot of cooking, and a spreadsheet of moonrise times.",
+        "ar": "ما زلت أصوّر بهاتفي أولًا، ثم جاءت كاميرا صغيرة لاحقًا للعواصف والعدسات الطويلة. وبين سماء وأخرى هناك قهوة على السطح، وكثير من الطبخ، وجدول بمواعيد طلوع القمر."
+      }
+    ],
+    "quote": {
+      "en": "Most of the sky's best work happens in about ten minutes a day. I plan around those minutes: tide tables, cloud models, moonrise times, and coffee on a rooftop before anyone else is awake.",
+      "ar": "أجمل ما تصنعه السماء يحدث في نحو عشر دقائق كل يوم. أرتّب يومي حول تلك الدقائق: جداول المدّ، وخرائط الغيوم، ومواعيد طلوع القمر، وقهوة على السطح قبل أن يستيقظ أحد."
+    },
+    "signature": "Idris",
+    "milestonesTitle": {
+      "en": "Along the way",
+      "ar": "محطات على الطريق"
+    },
+    "milestones": [
+      {
+        "year": "2017",
+        "text": {
+          "en": "First sunrise, shot on a phone from the roof",
+          "ar": "أول شروق، بالهاتف من على السطح"
+        }
+      },
+      {
+        "year": "2019",
+        "text": {
+          "en": "10,000 people following the sky with me",
+          "ar": "عشرة آلاف شخص يتابعون السماء معي"
+        }
+      },
+      {
+        "year": "2021",
+        "text": {
+          "en": "First solo exhibition, Ten Minutes of Gold, Muscat",
+          "ar": "أول معرض فردي، «عشر دقائق من الذهب»، مسقط"
+        }
+      },
+      {
+        "year": "2023",
+        "text": {
+          "en": "Campaigns for Marea Hotels and Ninefold Mobile",
+          "ar": "حملات لـ Marea Hotels وNinefold Mobile"
+        }
+      },
+      {
+        "year": "2025",
+        "text": {
+          "en": "900 limited prints shipped to 14 countries",
+          "ar": "900 مطبوعة محدودة شُحنت إلى 14 دولة"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "value": 8,
+        "suffix": "",
+        "label": {
+          "en": "years chasing skies",
+          "ar": "سنوات في مطاردة السماء"
+        }
+      },
+      {
+        "value": 23,
+        "suffix": "",
+        "label": {
+          "en": "cities photographed",
+          "ar": "مدينة صوّرتها"
+        }
+      },
+      {
+        "value": 3,
+        "suffix": "",
+        "label": {
+          "en": "solo exhibitions",
+          "ar": "معارض فردية"
+        }
+      },
+      {
+        "value": 86,
+        "suffix": "K",
+        "label": {
+          "en": "followers",
+          "ar": "متابع"
+        }
+      },
+      {
+        "value": 900,
+        "suffix": "+",
+        "label": {
+          "en": "prints sold",
+          "ar": "مطبوعة بيعت"
+        }
+      }
+    ]
+  },
+  "collabs": {
+    "kicker": {
+      "en": "Worked with",
+      "ar": "تعاونت مع"
+    },
+    "items": [
+      {
+        "name": "Marea Hotels",
+        "kind": {
+          "en": "Rooftop campaign",
+          "ar": "حملة الأسطح"
+        }
+      },
+      {
+        "name": "Ninefold Mobile",
+        "kind": {
+          "en": "Night mode launch",
+          "ar": "إطلاق الوضع الليلي"
+        }
+      },
+      {
+        "name": "Tidewater Air",
+        "kind": {
+          "en": "In-flight magazine",
+          "ar": "مجلة الرحلات"
+        }
+      },
+      {
+        "name": "Qasr Coffee Roasters",
+        "kind": {
+          "en": "Sunrise packaging",
+          "ar": "تغليف الشروق"
+        }
+      },
+      {
+        "name": "Lumen Optics",
+        "kind": {
+          "en": "Lens field tests",
+          "ar": "اختبارات العدسات"
+        }
+      },
+      {
+        "name": "Seaglass Residences",
+        "kind": {
+          "en": "View photography",
+          "ar": "تصوير الإطلالات"
+        }
+      }
+    ]
+  },
+  "services": {
+    "kicker": {
+      "en": "Work with me",
+      "ar": "اعمل معي"
+    },
+    "title": {
+      "en": "Shoots, prints and licensing",
+      "ar": "جلسات ومطبوعات وتراخيص"
+    },
+    "note": {
+      "en": "Prices in USD. Travel outside Muscat is quoted separately.",
+      "ar": "الأسعار بالدولار الأمريكي. السفر خارج مسقط يُسعَّر على حدة."
+    },
+    "items": [
+      {
+        "name": {
+          "en": "Golden hour session",
+          "ar": "جلسة الساعة الذهبية"
+        },
+        "price": 450,
+        "unit": {
+          "en": "per session",
+          "ar": "للجلسة"
+        },
+        "body": {
+          "en": "Portraits, couples or a small family against a real sunset or sunrise. 90 minutes, 30 edited photos.",
+          "ar": "صور شخصية أو للأزواج أو لعائلة صغيرة مع غروب أو شروق حقيقي. 90 دقيقة و30 صورة معدّلة."
+        }
+      },
+      {
+        "name": {
+          "en": "Brand and hotel commissions",
+          "ar": "مشاريع العلامات والفنادق"
+        },
+        "price": 1800,
+        "prefix": {
+          "en": "from",
+          "ar": "ابتداءً من"
+        },
+        "unit": {
+          "en": "per day",
+          "ar": "لليوم"
+        },
+        "body": {
+          "en": "Views, rooftops and campaigns timed to the light. Includes a scouting visit and a weather back-up day.",
+          "ar": "إطلالات وأسطح وحملات مضبوطة على توقيت الضوء. تشمل زيارة استكشافية ويومًا احتياطيًا للطقس."
+        }
+      },
+      {
+        "name": {
+          "en": "Image licensing",
+          "ar": "ترخيص الصور"
+        },
+        "price": 250,
+        "prefix": {
+          "en": "from",
+          "ar": "ابتداءً من"
+        },
+        "unit": {
+          "en": "per image",
+          "ar": "للصورة"
+        },
+        "body": {
+          "en": "Editorial, web and print use of any photo in the archive, with high resolution files within 24 hours.",
+          "ar": "استخدام أي صورة من الأرشيف في التحرير أو الويب أو الطباعة، مع ملفات عالية الدقة خلال 24 ساعة."
+        }
+      },
+      {
+        "name": {
+          "en": "Phone sky workshop",
+          "ar": "ورشة تصوير السماء بالهاتف"
+        },
+        "price": 120,
+        "unit": {
+          "en": "per person",
+          "ar": "للشخص"
+        },
+        "body": {
+          "en": "A sunrise on the beach and a coffee after: exposure, timing and editing, all on the phone you already have.",
+          "ar": "شروق على الشاطئ وقهوة بعده: التعريض والتوقيت والتعديل، كلها على الهاتف الذي تملكه."
+        }
+      }
+    ]
+  },
+  "prints": {
+    "kicker": {
+      "en": "Print shop",
+      "ar": "متجر المطبوعات"
+    },
+    "title": {
+      "en": "Limited editions, printed on cotton rag.",
+      "ar": "إصدارات محدودة مطبوعة على ورق قطني."
+    },
+    "body": {
+      "en": "Each photograph is printed in an edition of 25, signed and numbered, and shipped flat from Muscat.",
+      "ar": "تُطبع كل صورة في إصدار من 25 نسخة فقط، موقّعة ومرقّمة، وتُشحن مسطّحة من مسقط."
+    },
+    "edition": {
+      "en": "Edition of 25",
+      "ar": "إصدار من 25 نسخة"
+    },
+    "cta": {
+      "en": "Reserve on WhatsApp",
+      "ar": "احجز عبر واتساب"
+    },
+    "items": [
+      {
+        "photo": "moon-towers",
+        "title": {
+          "en": "Four Minutes",
+          "ar": "أربع دقائق"
+        },
+        "sizes": [
+          {
+            "label": "12 × 16 in",
+            "price": 95
+          },
+          {
+            "label": "24 × 32 in",
+            "price": 320
+          }
+        ]
+      },
+      {
+        "photo": "sunset-boat",
+        "title": {
+          "en": "Last Boat Home",
+          "ar": "آخر قارب إلى البيت"
+        },
+        "sizes": [
+          {
+            "label": "12 × 18 in",
+            "price": 95
+          },
+          {
+            "label": "24 × 36 in",
+            "price": 340
+          }
+        ]
+      },
+      {
+        "photo": "lightning-sea",
+        "title": {
+          "en": "One Good Bolt",
+          "ar": "ومضة واحدة"
+        },
+        "sizes": [
+          {
+            "label": "12 × 18 in",
+            "price": 110
+          },
+          {
+            "label": "30 × 45 in",
+            "price": 560
+          }
+        ]
+      }
+    ]
+  },
+  "feed": {
+    "kicker": {
+      "en": "Daily on Instagram",
+      "ar": "يوميًا على إنستغرام"
+    },
+    "cta": {
+      "en": "Follow the sky",
+      "ar": "تابع السماء"
+    },
+    "photos": [
+      "about-portrait",
+      "clouds-pastel",
+      "moon-path",
+      "sunrise-rooftops",
+      "lightning-city",
+      "minarets-sunset",
+      "light-trails",
+      "crescent-detail",
+      "sunset-silhouette",
+      "shelf-cloud",
+      "cumulus"
+    ]
+  },
+  "contact": {
+    "kicker": {
+      "en": "Book a sky",
+      "ar": "احجز سماءك"
+    },
+    "title": {
+      "en": "Tell me the date. I'll check the forecast.",
+      "ar": "أخبرني بالتاريخ، وسأتحقق من الطقس."
+    },
+    "body": {
+      "en": "WhatsApp is fastest. I reply within a day, usually right after sunset.",
+      "ar": "واتساب هو الأسرع. أردّ خلال يوم، غالبًا بعد الغروب مباشرة."
+    },
+    "whatsapp": {
+      "en": "Message on WhatsApp",
+      "ar": "راسلني على واتساب"
+    },
+    "email": {
+      "en": "Or email",
+      "ar": "أو عبر البريد"
+    },
+    "whatsappText": {
+      "en": "Hi Idris, I'd like to book a shoot on ",
+      "ar": "مرحبًا إدريس، أودّ حجز جلسة تصوير بتاريخ "
+    }
+  },
+  "credits": {
+    "designedBy": {
+      "en": "Designed & built by",
+      "ar": "تصميم وتطوير"
+    },
+    "author": "Muhammad Izhar",
+    "authorAr": "محمد إظهار",
+    "authorUrl": "https://izhar.dev",
+    "getTemplate": {
+      "en": "Get this template",
+      "ar": "احصل على هذا القالب"
+    },
+    "repoUrl": "https://github.com/izharr99/shafaq",
+    "license": {
+      "en": "MIT licence",
+      "ar": "رخصة MIT"
+    },
+    "photoCredits": {
+      "en": "Photo credits",
+      "ar": "حقوق الصور"
+    },
+    "photoCreditsIntro": {
+      "en": "All photographs are from Pexels under the Pexels License (free for commercial use). Shafaq and Idris Karam are fictional; captions and times are illustrative, camera data is from each photo's original upload.",
+      "ar": "جميع الصور من موقع Pexels بموجب رخصة Pexels (مجانية للاستخدام التجاري). شفق وإدريس كرم شخصيات خيالية، والتعليقات والأوقات توضيحية، أما بيانات الكاميرا فمن الرفع الأصلي لكل صورة."
+    },
+    "rights": {
+      "en": "Sample portfolio. Names, prices and contacts are placeholders.",
+      "ar": "معرض تجريبي. الأسماء والأسعار وبيانات التواصل افتراضية."
+    }
+  },
+  "photos": {
+    "blue-hour-skyline": {
+      "file": "blue-hour-skyline.jpg",
+      "alt": {
+        "en": "A city skyline glowing blue across calm water at blue hour",
+        "ar": "أفق مدينة يتوهج بالأزرق عبر ماء هادئ في الساعة الزرقاء"
+      },
+      "credit": {
+        "name": "Alfred GF",
+        "id": 11545441
+      },
+      "meta": {
+        "camera": "Sony A7R IV",
+        "lens": "24 mm",
+        "exposure": "f/16 · 30 s · ISO 100",
+        "time": "05:38",
+        "place": {
+          "en": "New York, USA",
+          "ar": "نيويورك، الولايات المتحدة"
+        }
+      },
+      "w": 1000,
+      "h": 563,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#0b2030",
+        "ink": "#e8eef3",
+        "accent": "#42a5f0",
+        "swatches": [
+          "#026fc1",
+          "#123d77",
+          "#9ed8ee",
+          "#79bbe3",
+          "#50a0d7"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAACQBACdASoYAA0APu1iqU2ppaQiMAgBMB2JagCdMoMYJn/Ad2qb/px9jr6e8EAA/maKeNKsqBr4u5mp8vG0kBKITvL31BP396Dp+2rJH7vvu8+uotubupRTurh/TWq4HOtJryhzOYzEPWsj+/CNRDZHf4PNbp7Xe35H6criVr8pmmVEBb3+I+mxoQAAAA=="
+    },
+    "dawn-boat": {
+      "file": "dawn-boat.jpg",
+      "alt": {
+        "en": "A small white boat on mirror-still water under a pink and violet dawn sky",
+        "ar": "قارب أبيض صغير على ماء ساكن كالمرآة تحت سماء فجر وردية وبنفسجية"
+      },
+      "credit": {
+        "name": "Nuno Obey",
+        "id": 128302
+      },
+      "meta": {
+        "camera": "Canon EOS 7D",
+        "lens": "17 mm",
+        "exposure": "f/22 · 3.2 s · ISO 100",
+        "time": "06:04",
+        "place": {
+          "en": "Still water",
+          "ar": "ماء ساكن"
+        }
+      },
+      "w": 1000,
+      "h": 667,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#130e2d",
+        "ink": "#e8ebf3",
+        "accent": "#427ef0",
+        "swatches": [
+          "#332b56",
+          "#5f57a0",
+          "#e48fa8",
+          "#0940a8",
+          "#9074b7"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoKCqAX7Wsq8lvAMkVXygAD+eTYmDGQQeAa754qCnkvVhxRNLRjVEyu37Niamc3TpL0RhjAE0qYf9VIns9kxBuRE0407P5ytl0hiv7E/kSZfpFfTSRN1P9TuYR2bOz1dFCwEFwH7Q9fGFugg+KapmGTtMAAAAA=="
+    },
+    "golden-coast": {
+      "file": "golden-coast.jpg",
+      "alt": {
+        "en": "The sun low over a bay and a hillside town in golden light",
+        "ar": "الشمس منخفضة فوق خليج وبلدة على التلال في ضوء ذهبي"
+      },
+      "credit": {
+        "name": "Abet Llacer",
+        "id": 4383348
+      },
+      "meta": {
+        "camera": "DJI Spark",
+        "lens": "4.5 mm",
+        "exposure": "f/2.6 · 1/4000 s · ISO 100",
+        "time": "17:21",
+        "place": {
+          "en": "Coastal town, from the air",
+          "ar": "بلدة ساحلية من الجو"
+        }
+      },
+      "w": 1000,
+      "h": 751,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#261515",
+        "ink": "#f2eae8",
+        "accent": "#d99f96",
+        "swatches": [
+          "#2d2121",
+          "#dba59c",
+          "#563b39",
+          "#90625a",
+          "#2a4451"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAADQBACdASoYABIAPu1grFAppSQmsBgIATAdiWIAgNAEZRdhUjBHtwvFK6XwKNGyQAD+zeT5f/ncSwmQYEFqYIQmWEos/qhVb234r6bYtuXAEA0sgpkvPOBYUgDbIyrGhRSBwVKClNn6bi4Gv/14oPWqzfEHGwA1AGKUvB7L9QAAAA=="
+    },
+    "sunset-boat": {
+      "file": "sunset-boat.jpg",
+      "alt": {
+        "en": "A fishing boat silhouetted on the sea as the orange sun sets on the horizon",
+        "ar": "ظل قارب صيد على البحر بينما تغيب الشمس البرتقالية عند الأفق"
+      },
+      "credit": {
+        "name": "Nivek Kram Aibab",
+        "id": 7864468
+      },
+      "meta": {
+        "camera": "Canon EOS 3000D",
+        "lens": "55 mm",
+        "exposure": "f/25 · 1/80 s · ISO 400",
+        "time": "17:52",
+        "place": {
+          "en": "Northern Mindanao, Philippines",
+          "ar": "شمال مينداناو، الفلبين"
+        }
+      },
+      "w": 1000,
+      "h": 667,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#30160b",
+        "ink": "#f3ece8",
+        "accent": "#ef8743",
+        "swatches": [
+          "#a54d27",
+          "#773c25",
+          "#542f23",
+          "#3b2825",
+          "#ec772a"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAACQBACdASoYABAAPu1iqU2ppaQiMAgBMB2JbACdMoRwACqwJnPjf35ctLAetYAA/s384TPZ49EjHFu/vM61kVls7iuMKFmUtaYKjFnJdB5lClrE6Cp4iErNB0B0NkmetjzG3VBbPVONnglu6sZaHaFe4cpksxJymHcQPZhAAAA="
+    },
+    "dusk-city": {
+      "file": "dusk-city.jpg",
+      "alt": {
+        "en": "Towers lit pink and violet at dusk, reflected in a river",
+        "ar": "أبراج مضاءة بالوردي والبنفسجي عند الغسق تنعكس على نهر"
+      },
+      "credit": {
+        "name": "Suki Lee",
+        "id": 18694287
+      },
+      "meta": {
+        "camera": null,
+        "lens": null,
+        "exposure": null,
+        "time": "18:16",
+        "place": {
+          "en": "Riverfront",
+          "ar": "ضفة النهر"
+        }
+      },
+      "w": 1000,
+      "h": 667,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#1c102a",
+        "ink": "#edeaf0",
+        "accent": "#936bc7",
+        "swatches": [
+          "#8c72ae",
+          "#825fa0",
+          "#b4598f",
+          "#744a87",
+          "#653839"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JaACdABW2JEF+G4AA5l3AjAKbJgZpD+hvnY6mY98Sezn3VMrLTA718RY3cSgINVEHi+cAdtfZgUAA"
+    },
+    "moonrise-sea": {
+      "file": "moonrise-sea.jpg",
+      "alt": {
+        "en": "A full moon rising over a blue sea, its reflection stretching to the shore",
+        "ar": "بدر يطلع فوق بحر أزرق، وانعكاسه يمتد حتى الشاطئ"
+      },
+      "credit": {
+        "name": "Александр Максин",
+        "id": 25819968
+      },
+      "meta": {
+        "camera": "Canon EOS 5D Mark III",
+        "lens": "73 mm",
+        "exposure": "f/13 · 4 s · ISO 50",
+        "time": "18:49",
+        "place": {
+          "en": "Open sea",
+          "ar": "البحر المفتوح"
+        }
+      },
+      "w": 1000,
+      "h": 629,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#0b1f30",
+        "ink": "#e8eef3",
+        "accent": "#42acf0",
+        "swatches": [
+          "#083f6b",
+          "#055080",
+          "#06355d",
+          "#3c577b",
+          "#061122"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQBACdASoYAA8APu1iqU2ppaOiMAgBMB2JaACdLwAB0J/agt0wapbHAAD+yz6VG9Cg3p7IaHjaeDZLAeQ8Xslr8iphPl4wWJOD/uu0ADgwkkPr8aWO6YAA"
+    },
+    "milky-way-sea": {
+      "file": "milky-way-sea.jpg",
+      "alt": {
+        "en": "The Milky Way arching over a dark sea and a rocky shoreline",
+        "ar": "درب التبانة يتقوس فوق بحر مظلم وشاطئ صخري"
+      },
+      "credit": {
+        "name": "Maksud",
+        "id": 4090111
+      },
+      "meta": {
+        "camera": "OnePlus 6T",
+        "lens": "4.3 mm",
+        "exposure": "f/1.7 · ISO 100",
+        "time": "23:10",
+        "place": {
+          "en": "Rocky shore",
+          "ar": "شاطئ صخري"
+        }
+      },
+      "w": 1000,
+      "h": 750,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#0e152d",
+        "ink": "#e8ebf3",
+        "accent": "#5a83d8",
+        "swatches": [
+          "#252d4a",
+          "#1c2335",
+          "#102144",
+          "#3b3b64",
+          "#151725"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAABwAwCdASoYABIAPu1qrFEppbKiqAqqUB2JZQDE2BDW3gOymQAA/vKxDsF0uYmgzm7R1ou6ui7YaE514iu2FXes/95XX//XrEFwAAAA"
+    },
+    "sunrise-haze": {
+      "file": "sunrise-haze.jpg",
+      "alt": {
+        "en": "A pale sun rising through haze above a calm teal sea",
+        "ar": "شمس باهتة تشرق عبر الضباب فوق بحر هادئ بلون فيروزي"
+      },
+      "credit": {
+        "name": "The Shejz",
+        "id": 35030749
+      },
+      "meta": {
+        "camera": "Canon EOS 700D",
+        "lens": "101 mm",
+        "exposure": "f/5.6 · 1/160 s · ISO 100",
+        "time": "06:21",
+        "place": {
+          "en": "Eastern shore",
+          "ar": "الساحل الشرقي"
+        }
+      },
+      "w": 1000,
+      "h": 695,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#132428",
+        "ink": "#f2ebe9",
+        "accent": "#c7876b",
+        "swatches": [
+          "#354c52",
+          "#2d454b",
+          "#846359",
+          "#545353",
+          "#273d42"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoYABEAPu1mqU2ppaQiMAgBMB2JZQC7ACHahmrCJp3mxqgA/qjOXn688ZFmuhrF5SXO0k1vuI9EXmBWBtAaYhR4MYWYZgpAzc4jhpe7EN3sRWgAAAA="
+    },
+    "sunrise-shore": {
+      "file": "sunrise-shore.jpg",
+      "alt": {
+        "en": "A small motorboat in shallow golden water at sunrise",
+        "ar": "قارب صغير بمحرك في مياه ضحلة ذهبية عند الشروق"
+      },
+      "credit": {
+        "name": "Pok Rie",
+        "id": 408914
+      },
+      "meta": {
+        "camera": null,
+        "lens": null,
+        "exposure": null,
+        "time": "06:15",
+        "place": {
+          "en": "Low tide",
+          "ar": "وقت الجزر"
+        }
+      },
+      "w": 1000,
+      "h": 666,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#282013",
+        "ink": "#f3efe8",
+        "accent": "#efc880",
+        "swatches": [
+          "#7d6d54",
+          "#93837a",
+          "#b8a196",
+          "#c1bdc9",
+          "#f3d6a1"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAQBACdASoYABAAPu1kqU2ppaQiMAgBMB2JQBOgBH2KptpRoOLe1NMUAAD+kZDwYJwspg4jXuXKtnWYmL8Ct/Wckb4OULmn4fHIYHvSnDNd/PrD2NEqSZRk0P1v+FBZDbdMmyZEp4XpWpTm6AWQAAAA"
+    },
+    "sunrise-sail": {
+      "file": "sunrise-sail.jpg",
+      "alt": {
+        "en": "A lone sailboat on a pastel morning sea beyond dry grass",
+        "ar": "مركب شراعي وحيد على بحر صباحي بألوان هادئة خلف عشب جاف"
+      },
+      "credit": {
+        "name": "Stefan Grage",
+        "id": 4282521
+      },
+      "meta": {
+        "camera": "Panasonic Lumix G9",
+        "lens": "100 mm",
+        "exposure": "f/8 · 1/400 s · ISO 200",
+        "time": "06:40",
+        "place": {
+          "en": "Holbæk, Denmark",
+          "ar": "هولبيك، الدنمارك"
+        }
+      },
+      "w": 1000,
+      "h": 1333,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#122129",
+        "ink": "#ebeef0",
+        "accent": "#6ba9c7",
+        "swatches": [
+          "#809faf",
+          "#53321b",
+          "#6e787e",
+          "#28150a",
+          "#e4c0ac"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABwBQCdASoYACAAPu1cqE2ppKOiN/VYATAdiUATplus2//gRAT9SB52WrmJ5WWR+a0mpEYAAP6NHpY8NhM1vmlhHlZXZCQlNnWWKlwdFqioOsZXsnLTpv8pmGuhvASoSyXsAs2M+J0SUAMiG/7TdUqE/zUi8+NIkiV8Qwz13HPb/hEvrIt2sANmJgtAAA=="
+    },
+    "sunrise-rooftops": {
+      "file": "sunrise-rooftops.jpg",
+      "alt": {
+        "en": "The sun rising behind a row of rooftop silhouettes under layered clouds",
+        "ar": "الشمس تشرق خلف صف من ظلال الأسطح تحت طبقات من الغيوم"
+      },
+      "credit": {
+        "name": "Amanda Leoni",
+        "id": 8529226
+      },
+      "meta": {
+        "camera": "Canon EOS Rebel T100",
+        "lens": "55 mm",
+        "exposure": "f/10 · 1/250 s · ISO 100",
+        "time": "06:09",
+        "place": {
+          "en": "Old quarter",
+          "ar": "الحي القديم"
+        }
+      },
+      "w": 1000,
+      "h": 667,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#1e1e1c",
+        "ink": "#f3eee8",
+        "accent": "#f1b555",
+        "swatches": [
+          "#73716c",
+          "#9c7e5b",
+          "#0d0b0a",
+          "#c3712e",
+          "#f1b555"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABQBACdASoYABAAPu1kqU2ppaOiMAgBMB2JaACdMoMYJn/AIcu88hk/jPgAAPnWeubH+zrE0kT/lPyXLHlNICo8LY3QFUACWKVR8llu4LFozUKCgabtWDb6pcQWamfcj18UUeFdGgSrcO9g3btjxpHSlDmBRguPCb4iAA=="
+    },
+    "clouds-ember": {
+      "file": "clouds-ember.jpg",
+      "alt": {
+        "en": "Towering clouds lit orange against a blue sky",
+        "ar": "غيوم شاهقة مضاءة بالبرتقالي على سماء زرقاء"
+      },
+      "credit": {
+        "name": "David Kanigan",
+        "id": 12988245
+      },
+      "meta": {
+        "camera": "Canon EOS R3",
+        "lens": "400 mm",
+        "exposure": "f/6.3 · 1/400 s · ISO 2000",
+        "time": "06:52",
+        "place": {
+          "en": "Darien, Connecticut",
+          "ar": "داريِن، كونيتيكت"
+        }
+      },
+      "w": 1000,
+      "h": 778,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#25151a",
+        "ink": "#f3ebe8",
+        "accent": "#f3906b",
+        "swatches": [
+          "#73565f",
+          "#916467",
+          "#cd7162",
+          "#af6763",
+          "#6f6d77"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABwBACdASoYABMAPulcp02pJKOiN/VYASAdCWQAnTLMARx1j2/higItGvT2AADUN7B/wIm595WmhGXh7gAbuQJ4PFw5yMkqYS3I/1ubYebvFsyHjVmLP//SHf0d2eXP1Z198XVoVvd8U15Vr4q48W9jeSr2oAAA"
+    },
+    "sunset-city-sun": {
+      "file": "sunset-city-sun.jpg",
+      "alt": {
+        "en": "A large orange sun setting into haze above city towers",
+        "ar": "شمس برتقالية كبيرة تغيب في الضباب فوق أبراج المدينة"
+      },
+      "credit": {
+        "name": "Quang Nguyen Vinh",
+        "id": 6710686
+      },
+      "meta": {
+        "camera": null,
+        "lens": null,
+        "exposure": null,
+        "time": "17:40",
+        "place": {
+          "en": "City haze",
+          "ar": "ضباب المدينة"
+        }
+      },
+      "w": 1000,
+      "h": 667,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#30170b",
+        "ink": "#f3ebe8",
+        "accent": "#f07942",
+        "swatches": [
+          "#953001",
+          "#753d22",
+          "#d05600",
+          "#563227",
+          "#fa9b19"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQBACdASoYABAAPu1iqk2ppaQiMAgBMB2JbACdMoR4GBxOPeCgCBcbshmAAPaOCszy56JFBHZCyrADwsjDkTmZ3+V1tVEGMn/tTUil4iWpR2ox1VspwWFAlbcXXlzMSQ2PXTMBO9UAAA=="
+    },
+    "sunset-silhouette": {
+      "file": "sunset-silhouette.jpg",
+      "alt": {
+        "en": "Dark building silhouettes against a band of burning sunset cloud",
+        "ar": "ظلال مبانٍ داكنة أمام شريط من غيوم الغروب المتوهجة"
+      },
+      "credit": {
+        "name": "Italo Melo",
+        "id": 2356139
+      },
+      "meta": {
+        "camera": null,
+        "lens": null,
+        "exposure": null,
+        "time": "17:49",
+        "place": {
+          "en": "From the rooftop",
+          "ar": "من السطح"
+        }
+      },
+      "w": 1000,
+      "h": 1294,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#231817",
+        "ink": "#f3ede8",
+        "accent": "#e29a50",
+        "swatches": [
+          "#0a0808",
+          "#3e332b",
+          "#315762",
+          "#bc6f1f",
+          "#1d0d09"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAACwBACdASoYAB8APu1urlIppiQiqAgBMB2JbACxG22kAAoAVcmEBN/KbNFNyS4AAP7Y/mqkVGMsP8zGgws64+UvQpCZ4Uf2W7wSLtZyoEa1Ip5044uKXdNaebO4/eBIt7Bw1YkxszY6PmaidkoYbRejEVJNvqyijEnG2fJhOXpxepoXdxxSl7dVKQYe21L8YoRCLnBsF4aFE5Hw/5EsAA=="
+    },
+    "sunset-storm-sea": {
+      "file": "sunset-storm-sea.jpg",
+      "alt": {
+        "en": "Storm clouds breaking over the sea with a sliver of sunset beneath",
+        "ar": "غيوم عاصفة تتكسر فوق البحر وتحتها شريط رفيع من الغروب"
+      },
+      "credit": {
+        "name": "Willian Justen de Vasconcellos",
+        "id": 16116629
+      },
+      "meta": {
+        "camera": "Sony A7C",
+        "lens": "29 mm",
+        "exposure": "f/3.2 · 1/1000 s · ISO 160",
+        "time": "17:58",
+        "place": {
+          "en": "Open water",
+          "ar": "عرض البحر"
+        }
+      },
+      "w": 1000,
+      "h": 1500,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#171d24",
+        "ink": "#f2ece8",
+        "accent": "#ce9d7f",
+        "swatches": [
+          "#1b1e22",
+          "#25282d",
+          "#30343c",
+          "#40444f",
+          "#7b6b64"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADQBQCdASoYACQAPulip02pJaOiNVgIASAdCWMAwzQWbOfMBlwqAg1crZ97mBKMr4dPeYnz1/mQAP7Y5hTLHPBU+gRFS11T4rNPPD9J5Odv5cg4WBKIFksRB6WI2EPdwr+ghf8hjfPH1SNkvvfYuja+uU/pcYwE93I3k1BTHXx6T20Z28W5AxEkN2iTTF/IMXscOjsLcFbADenAAAA="
+    },
+    "clouds-pastel": {
+      "file": "clouds-pastel.jpg",
+      "alt": {
+        "en": "Soft pastel clouds glowing pink and lilac after sunset",
+        "ar": "غيوم ناعمة بألوان الباستيل تتوهج بالوردي والليلكي بعد الغروب"
+      },
+      "credit": {
+        "name": "eberhard grossgasteiger",
+        "id": 19779597
+      },
+      "meta": {
+        "camera": null,
+        "lens": null,
+        "exposure": null,
+        "time": "18:05",
+        "place": {
+          "en": "Overhead",
+          "ar": "فوق الرأس"
+        }
+      },
+      "w": 1000,
+      "h": 1500,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#1a1723",
+        "ink": "#f3eae8",
+        "accent": "#dd9d89",
+        "swatches": [
+          "#9d9aac",
+          "#686a88",
+          "#867f98",
+          "#474761",
+          "#ad858c"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAADwBQCdASoYACQAPu1kpk4ppaMiMBVdUTAdiUAYbP24ihDcfvJ3HB1RuPj6GZk01je4nKn0iIUvAADLDvh4djlr5M/TgqDCztnzlaNSJftCPL3FU1UbirBU8Ln3tdhgArxJDdis4CqKOv8vERZWNa8XRfQdpOCROLwHh/blhK3Lfg6wjhu52jEOO2ZLXxmhtPPv/FcCLTAAAA=="
+    },
+    "moon-towers": {
+      "file": "moon-towers.jpg",
+      "alt": {
+        "en": "A huge orange full moon rising behind glass towers",
+        "ar": "بدر برتقالي ضخم يطلع خلف أبراج زجاجية"
+      },
+      "credit": {
+        "name": "Jesus Toledo",
+        "id": 30199537
+      },
+      "meta": {
+        "camera": null,
+        "lens": null,
+        "exposure": null,
+        "time": "19:02",
+        "place": {
+          "en": "Vancouver, Canada",
+          "ar": "فانكوفر، كندا"
+        }
+      },
+      "w": 1000,
+      "h": 1294,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#111a2a",
+        "ink": "#f3e9e8",
+        "accent": "#f08575",
+        "swatches": [
+          "#41506c",
+          "#2c3748",
+          "#060f19",
+          "#112231",
+          "#f08575"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAAAwBQCdASoYAB8APtVYok2oJSMiN+gBABqJYgCo9CRLeXSUmIOP9J3qdf219EceviTAAAD+2V666kDvj660Vb0Zx11d0sZlbVHVzM4U9N3DIxer+e2nazVMH6fZKIqLxy07N79jRYAdsVVJeSCzz+h24PByNaVgcSvZsJfVG5jxH0Ntorufreqouo6hq30FuTXQ2d1wADrJKgqsIJpzwfWv8jolj7TWfAhVkNqsuG4hW5ltw1XG38Ip1ReCzMOgTU+gAA=="
+    },
+    "moon-path": {
+      "file": "moon-path.jpg",
+      "alt": {
+        "en": "Moonlight drawing a bright path across a dark blue sea",
+        "ar": "ضوء القمر يرسم دربًا لامعًا على بحر أزرق داكن"
+      },
+      "credit": {
+        "name": "Adelin M",
+        "id": 5052131
+      },
+      "meta": {
+        "camera": "Samsung Galaxy S10e",
+        "lens": "4.3 mm",
+        "exposure": "f/1.5 · 1/20 s · ISO 640",
+        "time": "21:14",
+        "place": {
+          "en": "Shoreline",
+          "ar": "خط الشاطئ"
+        }
+      },
+      "w": 1000,
+      "h": 1333,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#0c142f",
+        "ink": "#e9ebf1",
+        "accent": "#6b80c7",
+        "swatches": [
+          "#3b4b83",
+          "#0d192f",
+          "#1c2444",
+          "#323557",
+          "#5c5a7d"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAwBACdASoYACAAPuVepU2pJSOiMAwBIByJQAAPnBBObtLqmbGM4Jel4AAA/ufOf/7Yu2Sf91D4zCP/kc7vqf9B0guq7gZ75UlW4Ju8yVGxArsEkhiUxCWnvOt7odO8IlHNoeQHGhQAAA=="
+    },
+    "moon-dusk-sea": {
+      "file": "moon-dusk-sea.jpg",
+      "alt": {
+        "en": "A small bright moon over the sea at dusk with its reflection on the waves",
+        "ar": "قمر صغير لامع فوق البحر عند الغسق وانعكاسه على الموج"
+      },
+      "credit": {
+        "name": "Alina Rossoshanska",
+        "id": 17241532
+      },
+      "meta": {
+        "camera": "Canon EOS 1100D",
+        "lens": "70 mm",
+        "exposure": "f/3.5 · 1/6 s · ISO 800",
+        "time": "18:58",
+        "place": {
+          "en": "Harbour wall",
+          "ar": "سور الميناء"
+        }
+      },
+      "w": 1000,
+      "h": 1502,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#0b1c30",
+        "ink": "#e8edf3",
+        "accent": "#5495de",
+        "swatches": [
+          "#153d6a",
+          "#07243e",
+          "#0e2c4a",
+          "#10202c",
+          "#6c463a"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABQBACdASoYACQAPu1gqU8ppSOiMBqoATAdiUAX7P/gJuurUFjhNnH1SbQAAP7Y30WSeUBSacU+0++c0pDc+AG/fdUlTyajVm2CdkeCPWTGQ4xwPanBIZtfQKW6w477NCduqLY6i6Dya7L3dE0f0/orZbqkWYqzJ7Mtc20AAAA="
+    },
+    "crescent-clouds": {
+      "file": "crescent-clouds.jpg",
+      "alt": {
+        "en": "A thin crescent moon among soft clouds in a deep blue sky",
+        "ar": "هلال رفيع بين غيوم ناعمة في سماء زرقاء عميقة"
+      },
+      "credit": {
+        "name": "Pramod Tiwari",
+        "id": 13581999
+      },
+      "meta": {
+        "camera": null,
+        "lens": null,
+        "exposure": null,
+        "time": "04:52",
+        "place": {
+          "en": "Before dawn",
+          "ar": "قبيل الفجر"
+        }
+      },
+      "w": 1000,
+      "h": 1250,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#1f1c1c",
+        "ink": "#e8eff3",
+        "accent": "#42b5f0",
+        "swatches": [
+          "#585151",
+          "#354755",
+          "#03334c",
+          "#062941",
+          "#173d53"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADQBACdASoYAB4APulcp02pJSOiN/VYASAdCWIAsOxFX8BYGlf9jeIKC/+e2dhuYAD+9BtNnffWEdStbPtElaKymQSMWHAEQEAUDOgEIEePLcKQ17EhpmhPeqlqUfPYJItm6WrCDlsiE/mdWoAAAA=="
+    },
+    "crescent-detail": {
+      "file": "crescent-detail.jpg",
+      "alt": {
+        "en": "A detailed crescent moon against a black sky",
+        "ar": "هلال بتفاصيل سطحه الواضحة على سماء سوداء"
+      },
+      "credit": {
+        "name": "Tom Fisk",
+        "id": 12705640
+      },
+      "meta": {
+        "camera": "Sony RX10 IV",
+        "lens": "220 mm",
+        "exposure": "f/4 · 1/160 s · ISO 200",
+        "time": "20:31",
+        "place": {
+          "en": "Through the long lens",
+          "ar": "عبر العدسة الطويلة"
+        }
+      },
+      "w": 1000,
+      "h": 1000,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#300f0b",
+        "ink": "#f3e9e8",
+        "accent": "#ea5a48",
+        "swatches": [
+          "#000000",
+          "#020101",
+          "#e9dbcb",
+          "#87735f",
+          "#120d0a"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABwBACdASoYABgAPuFgpU2opaOiN/VYARAcCWcAzuxFX8b3eta8PeDybHUvgAD++Egdp/BAS+clWSxwckOehFb/wWsMejrnq6Ctylyrlw5O5WXtLVWhKXa+0wAAAA=="
+    },
+    "moon-building": {
+      "file": "moon-building.jpg",
+      "alt": {
+        "en": "A full moon resting just above the roof of an apartment block",
+        "ar": "بدر يستقر فوق سطح مبنى سكني"
+      },
+      "credit": {
+        "name": "Magali Guimarães",
+        "id": 5206826
+      },
+      "meta": {
+        "camera": "Nikon D3300",
+        "lens": "300 mm",
+        "exposure": "f/6.3 · 1/160 s · ISO 400",
+        "time": "18:44",
+        "place": {
+          "en": "Brasília, Brazil",
+          "ar": "برازيليا، البرازيل"
+        }
+      },
+      "w": 1000,
+      "h": 1499,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#1d1c1f",
+        "ink": "#ededee",
+        "accent": "#8e6bc7",
+        "swatches": [
+          "#28272b",
+          "#3d3936",
+          "#1f1c1f",
+          "#171619",
+          "#141112"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABQBQCdASoYACQAPu1uqk+ppqOiKrgMATAdiWdlBV0VjyWHRPVMu3f4RNzTPP2dxovJS8AA/vKhmcqTlJEHU7dEuor3QZXtx4jtk6PHgS/dXbk/BLcAcv1L+6Rj8Q0q6WiU5WqUGS2Q6+K5nhvKkIFLeqrS1HUX5wAAAA=="
+    },
+    "lightning-sea": {
+      "file": "lightning-sea.jpg",
+      "alt": {
+        "en": "A single lightning bolt striking the sea at night beside a lit island",
+        "ar": "صاعقة برق واحدة تضرب البحر ليلًا بجانب جزيرة مضاءة"
+      },
+      "credit": {
+        "name": "Philippe Donn",
+        "id": 1114690
+      },
+      "meta": {
+        "camera": null,
+        "lens": null,
+        "exposure": null,
+        "time": "23:47",
+        "place": {
+          "en": "Maldonado, Uruguay",
+          "ar": "مالدونادو، الأوروغواي"
+        }
+      },
+      "w": 1000,
+      "h": 667,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#141727",
+        "ink": "#ebecef",
+        "accent": "#6b7ac7",
+        "swatches": [
+          "#0f1016",
+          "#0a0b10",
+          "#191a21",
+          "#06080c",
+          "#333642"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZwDE2CFN1TnCVbZV8AAA/vDLplC6lcef7wl4Pxk8Z8hQbg1okb2wWBGrhiKIhLArevzNH2AAAA=="
+    },
+    "lightning-pillars": {
+      "file": "lightning-pillars.jpg",
+      "alt": {
+        "en": "Two violet lightning strikes over the sea framed by old wooden posts",
+        "ar": "ضربتا برق بنفسجيتان فوق البحر تحيط بهما أعمدة خشبية قديمة"
+      },
+      "credit": {
+        "name": "Pixabay",
+        "id": 248775
+      },
+      "meta": {
+        "camera": null,
+        "lens": null,
+        "exposure": null,
+        "time": "20:12",
+        "place": {
+          "en": "Old pier",
+          "ar": "الرصيف القديم"
+        }
+      },
+      "w": 1000,
+      "h": 647,
+      "sizes": [
+        800,
+        1600
+      ],
+      "palette": {
+        "bg": "#0e102d",
+        "ink": "#eaeaf1",
+        "accent": "#6b70c7",
+        "swatches": [
+          "#4c5097",
+          "#25294a",
+          "#12162d",
+          "#0a080a",
+          "#a580bc"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwBACdASoYAA8APu1iqk4ppaQiMAgBMB2JaAC7H8ACyMLTWfSWcDNnPKGyAAD+5TcC3/etsbatvb/7HhkRN8Xu8O04Xzhs0JNB/fTwH24k+ZPmQ6+f+Puqdm+Ix64F/te6gCfqIwOzkqoG954ex8sZiI0IAA=="
+    },
+    "lightning-lake": {
+      "file": "lightning-lake.jpg",
+      "alt": {
+        "en": "Several lightning strikes reaching down to a wide lake under heavy cloud",
+        "ar": "عدة ضربات برق تنزل إلى بحيرة واسعة تحت غيوم كثيفة"
+      },
+      "credit": {
+        "name": "Raychel Sanner",
+        "id": 4870641
+      },
+      "meta": {
+        "camera": null,
+        "lens": null,
+        "exposure": null,
+        "time": "21:30",
+        "place": {
+          "en": "Oklahoma City, USA",
+          "ar": "أوكلاهوما سيتي، الولايات المتحدة"
+        }
+      },
+      "w": 1000,
+      "h": 750,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#121a29",
+        "ink": "#ebecf0",
+        "accent": "#90a9d5",
+        "swatches": [
+          "#a1aec4",
+          "#ced2e3",
+          "#8191aa",
+          "#5f7089",
+          "#262f3c"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADQBACdASoYABIAPu1srVEppiQiqAqpMB2JYwC2yBEiTOxJuXpj2+JH45tzzEMLwAD+ZUzg/3cFn7ZoB3BLm1PgFtjhB3JRPkZc0ie5v5gWVXEBxLQG9BJ2hGVLvD+jid9dhCpNkORR1KvHtCG7PfdApk5Q0QBgSSqYSTl+VdVz/E7aYDIdtxqAAAA="
+    },
+    "shelf-cloud": {
+      "file": "shelf-cloud.jpg",
+      "alt": {
+        "en": "A dark shelf cloud rolling in over an empty beach",
+        "ar": "سحابة رفّية داكنة تزحف فوق شاطئ خالٍ"
+      },
+      "credit": {
+        "name": "Dijanynni Kiratza",
+        "id": 15470681
+      },
+      "meta": {
+        "camera": "Nikon D5100",
+        "lens": "18 mm",
+        "exposure": "f/3.5 · 1/50 s · ISO 250",
+        "time": "15:20",
+        "place": {
+          "en": "Empty beach",
+          "ar": "شاطئ خالٍ"
+        }
+      },
+      "w": 1000,
+      "h": 662,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#1c1d1f",
+        "ink": "#eaedf1",
+        "accent": "#97b2d8",
+        "swatches": [
+          "#55595f",
+          "#747b85",
+          "#929faf",
+          "#b7c1cd",
+          "#d3dce8"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAACQAwCdASoYABAAPu1oqk6ppiQiMAgBMB2JZQCdABTx9NVfWeeAAP7W0dqHNOezyhPtwNFlceYx+HuQinoOFVgMSjyjOUBwcFeTW8v6J4YKylJsRwwtcxltD3ysKLBKPAK05yY308EoN5DIiPZPAAAA"
+    },
+    "storm-sea": {
+      "file": "storm-sea.jpg",
+      "alt": {
+        "en": "Rain falling from storm clouds far out over the sea",
+        "ar": "مطر يهطل من غيوم العاصفة بعيدًا فوق البحر"
+      },
+      "credit": {
+        "name": "Josh Sorenson",
+        "id": 9712998
+      },
+      "meta": {
+        "camera": "Canon EOS R",
+        "lens": "35 mm",
+        "exposure": "f/1.6 · 1/3200 s · ISO 100",
+        "time": "16:45",
+        "place": {
+          "en": "Offshore",
+          "ar": "قبالة الساحل"
+        }
+      },
+      "w": 1000,
+      "h": 471,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#0e2d27",
+        "ink": "#eaf1ef",
+        "accent": "#6bc7b7",
+        "swatches": [
+          "#10211e",
+          "#243530",
+          "#8b8c74",
+          "#637164",
+          "#3a544f"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAwCdASoYAAsAPu1kqk4ppaQiMAgBMB2JYwC7ACHiCsg1cJ5BHUUAAP7poPKDUiJGGsGRUWKwnaVJpOi74TTSdeHCwrKlXO+jPvQGUCgcHUzLJIBjD2bsT4yDPmiYYlCaINgAAAA="
+    },
+    "lightning-city": {
+      "file": "lightning-city.jpg",
+      "alt": {
+        "en": "Lightning flashing behind a dark city silhouette at night",
+        "ar": "برق يومض خلف ظل مدينة داكن في الليل"
+      },
+      "credit": {
+        "name": "emre varışlı",
+        "id": 28823583
+      },
+      "meta": {
+        "camera": "Fujifilm X-T30 II",
+        "lens": "15 mm",
+        "exposure": "f/3.5 · 0.6 s · ISO 320",
+        "time": "22:18",
+        "place": {
+          "en": "Over the rooftops",
+          "ar": "فوق الأسطح"
+        }
+      },
+      "w": 1000,
+      "h": 870,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#11122a",
+        "ink": "#eceaf0",
+        "accent": "#b097d8",
+        "swatches": [
+          "#38395d",
+          "#030303",
+          "#b5a6ce",
+          "#0f1018",
+          "#6a628f"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAACwBACdASoYABUAPulcp02pJSOiN/VYASAdCUAABb0NjSJcL55o5BI5Qb6UIZgAAP7yogZqTHPRHZnyKINJUJDEUsoNUD8BfOh/zw1k+RObrVz+iFF9fkt2bo2SSjyozHFQ6KnhWzRWkirXAoavGUN6QXBkvdCOlOJ1oAAA"
+    },
+    "harbour-night": {
+      "file": "harbour-night.jpg",
+      "alt": {
+        "en": "A harbour at night with city lights reflected in the water beside a pier",
+        "ar": "ميناء ليلًا وأضواء المدينة تنعكس على الماء بجانب رصيف"
+      },
+      "credit": {
+        "name": "Maximilian Ruther",
+        "id": 11557796
+      },
+      "meta": {
+        "camera": "Nikon Z 6",
+        "lens": "39 mm",
+        "exposure": "f/16 · 69 s · ISO 100",
+        "time": "20:30",
+        "place": {
+          "en": "North Vancouver, Canada",
+          "ar": "شمال فانكوفر، كندا"
+        }
+      },
+      "w": 1000,
+      "h": 665,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#122729",
+        "ink": "#ebeff0",
+        "accent": "#6bc0c7",
+        "swatches": [
+          "#1a292a",
+          "#191c1d",
+          "#3b4642",
+          "#70736b",
+          "#1c1011"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAABQBACdASoYABAAPu1kqU2ppaQiMAgBMB2JYwDHL/7AwH7I7PRwkNFIqSAAAP7ugBmegMmjAXzwjmzyxmUkgOPuU5BFbzpL5x96y3dZGzoP1vFX4AhSgGbg5fL3wqN3RjPe3TRE2COxP4mxMhYX7U3S2TCjYneAW/aIQetefVh6WP+HuMmQCYAA"
+    },
+    "skyline-night": {
+      "file": "skyline-night.jpg",
+      "alt": {
+        "en": "A lit city skyline across the water under a stormy night sky",
+        "ar": "أفق مدينة مضاء عبر الماء تحت سماء ليلية عاصفة"
+      },
+      "credit": {
+        "name": "Pixabay",
+        "id": 258173
+      },
+      "meta": {
+        "camera": null,
+        "lens": null,
+        "exposure": null,
+        "time": "21:05",
+        "place": {
+          "en": "New York, USA",
+          "ar": "نيويورك، الولايات المتحدة"
+        }
+      },
+      "w": 1000,
+      "h": 875,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#101a2a",
+        "ink": "#eaecf0",
+        "accent": "#6b8cc7",
+        "swatches": [
+          "#3b4a66",
+          "#262d49",
+          "#626279",
+          "#5c484f",
+          "#9e8c93"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAADQBACdASoYABUAPu1mqU2ppaOiMAgBMB2JYgCdAB50Sg1MKxERhTPwAEvOS/yJgAD+okthRlRmEjOywZf7ckUju45HqwGWs1dYoKWrfUEvH3Z0RRsna4vhW2VEX5dmRDOodRYVqqRBX9gjhh6T33SenAFS6EkO1kwZ9FSxaeStxPigMSCcUSKz5XEHLRUySY/geEqOr2HxsGV2juIWZTtSDarzScVMd7oJ7qaUktCQrj2VekXkRKngAAA="
+    },
+    "light-trails": {
+      "file": "light-trails.jpg",
+      "alt": {
+        "en": "Long exposure light trails on a highway under orange street lamps",
+        "ar": "خطوط ضوء بتعريض طويل على طريق سريع تحت مصابيح برتقالية"
+      },
+      "credit": {
+        "name": "Renan Rezende",
+        "id": 12110342
+      },
+      "meta": {
+        "camera": "Canon EOS Rebel T6",
+        "lens": "29 mm",
+        "exposure": "f/20 · 30 s · ISO 100",
+        "time": "21:40",
+        "place": {
+          "en": "Spain",
+          "ar": "إسبانيا"
+        }
+      },
+      "w": 1000,
+      "h": 1500,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#301a0b",
+        "ink": "#f3ece8",
+        "accent": "#f08842",
+        "swatches": [
+          "#8c3c07",
+          "#632201",
+          "#bd610b",
+          "#350900",
+          "#c17f4b"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRiQBAABXRUJQVlA4IBgBAADwBgCdASoYACQAPu1krFAppSQiqrgMATAdiWgArDM9yIArtcLFtLLKgeHPVPxb5Uks27H2V5Xnq0AGp1JQdUygAP7ppEwAm2wznJtGs9vR1JSZz9CZwbxeAD4yDBKz+TWPxAptYJEH9OM/ihWGhVlD+8FzwRmqC4d7k9W4/acoGxr7W1kZ3iW1zv7eVqR3gkwAnm5n/zdRIFXlu+HMiI+8ETwHTq9YSObVEDU+55oMfK1V4sAWdeqqdHlTWPwvLIXTmsrBf5fcbFlre4/0yIlYj+6xQ2pg0Uik6NrptKAEoxNZvXajlTsa9yz3NspOSPGGazQ+YK+sv0LnRH12BmjP6465+tjTo7+iLD+fSm0PKCCwSuYnwAAA"
+    },
+    "city-dusk-above": {
+      "file": "city-dusk-above.jpg",
+      "alt": {
+        "en": "A city spread out below a thin band of orange dusk light",
+        "ar": "مدينة ممتدة تحت شريط رفيع من ضوء الغسق البرتقالي"
+      },
+      "credit": {
+        "name": "Kendrick Chen",
+        "id": 20498898
+      },
+      "meta": {
+        "camera": null,
+        "lens": null,
+        "exposure": null,
+        "time": "18:24",
+        "place": {
+          "en": "New York, USA",
+          "ar": "نيويورك، الولايات المتحدة"
+        }
+      },
+      "w": 1000,
+      "h": 1500,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#291711",
+        "ink": "#e8ebf3",
+        "accent": "#567bdc",
+        "swatches": [
+          "#18110e",
+          "#132659",
+          "#4b3932",
+          "#335a9f",
+          "#7da2cc"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAABwBQCdASoYACQAPu1orVCppaQipWzJMB2JYgC9WDnfrG/KR3qbWRmbtgXbevxIx1lsvK3AAP72qcBIA1olsT1cH47pH6v5xs296XaXzJEhpbuOzZDoIIDwVIRZzh7qEYik5FQ802SyVlGmYQyIVcuDedJPMiYhHACn8ooO4exUNWH1VeJnz0M+hkM+FwHVCiHtiuDP6rJDuEHMyg36yxmresBaLUcHfK/zYnQk0LCjwAAA"
+    },
+    "city-golden-aerial": {
+      "file": "city-golden-aerial.jpg",
+      "alt": {
+        "en": "An aerial view of a coastal city and its roads at golden hour",
+        "ar": "منظر جوي لمدينة ساحلية وطرقها في الساعة الذهبية"
+      },
+      "credit": {
+        "name": "Lio Photography",
+        "id": 1598338
+      },
+      "meta": {
+        "camera": "Canon EOS 5D Mark III",
+        "lens": "27 mm",
+        "exposure": "f/22 · ISO 100",
+        "time": "17:30",
+        "place": {
+          "en": "Salmiya, Kuwait",
+          "ar": "السالمية، الكويت"
+        }
+      },
+      "w": 1000,
+      "h": 1163,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#171c23",
+        "ink": "#f3ece8",
+        "accent": "#ddaf92",
+        "swatches": [
+          "#484e57",
+          "#63636b",
+          "#e0b59a",
+          "#a17b73",
+          "#343a44"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAADwBQCdASoYABwAPu1kqU2ppaOiMAgBMB2JYgCxCYBvJf4Aei4GwPdpTtFeQmJBp/OSEjMjctuAwAD9mRL7JWq/XuxGo9r8VfoVGfInkqHG+d8O+NEyGrbYYy3Je7AYVkrcuIgOTgXuekTCHvgUbeuPcKlBMIsAyYWXaXsDOIlFLKy4WBkX9waZvWY0SQb9mPRsO3tTfnf7ABr88zuIAIh9s/oNmf4eThpL+Sv+N59+/cYgYizXJhurvMhZ8+1kaAR4fHRpYTZvhxJk7Uw/de51JmuEjNcVzhkEVs4A"
+    },
+    "mashrabiya": {
+      "file": "mashrabiya.jpg",
+      "alt": {
+        "en": "A carved wooden mashrabiya window casting lattice shadows on a striped stone wall",
+        "ar": "نافذة مشربية خشبية منقوشة تلقي ظلالًا شبكية على جدار حجري مخطط"
+      },
+      "credit": {
+        "name": "Sami Raad",
+        "id": 30615454
+      },
+      "meta": {
+        "camera": "Canon EOS R50",
+        "lens": "116 mm",
+        "exposure": "f/6.3 · 1/500 s · ISO 640",
+        "time": "15:10",
+        "place": {
+          "en": "Damascus, Syria",
+          "ar": "دمشق، سوريا"
+        }
+      },
+      "w": 1000,
+      "h": 667,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#1c1c1f",
+        "ink": "#ecedee",
+        "accent": "#6b8fc7",
+        "swatches": [
+          "#c1c1c6",
+          "#798394",
+          "#aba9aa",
+          "#403632",
+          "#d9d6d3"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAACwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZQDCgywYYAphF/jkm8NXoYfktgkAAP6pItUH/RcxQNh0pPV17rxTZaQ31obWtd8zvcC3vQhaJBsdOj9/I1GLi4owqpNwKhw4AbTak0Dq4I3+S2qSMn0dtWt2YHuJ7K6qtonNA5TOO2WY7Cx6ppxZueibqr9RDjWQ639ROhLeS4AeIN1irFRgRp563AAA"
+    },
+    "lattice-light": {
+      "file": "lattice-light.jpg",
+      "alt": {
+        "en": "Patterned light from a lattice window falling across a dark floor",
+        "ar": "ضوء منقوش من نافذة شبكية يسقط على أرضية مظلمة"
+      },
+      "credit": {
+        "name": "Elkhan Ganiyev",
+        "id": 18453549
+      },
+      "meta": {
+        "camera": "Nikon D5",
+        "lens": "14 mm",
+        "exposure": "f/2.8 · 1/3200 s · ISO 50",
+        "time": "13:40",
+        "place": {
+          "en": "Şuşa, Azerbaijan",
+          "ar": "شوشا، أذربيجان"
+        }
+      },
+      "w": 1000,
+      "h": 667,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#28131b",
+        "ink": "#e8eef3",
+        "accent": "#63a1cf",
+        "swatches": [
+          "#000000",
+          "#030202",
+          "#070708",
+          "#1b3e58",
+          "#0c1d2c"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACwAwCdASoYABAAPu1kq04ppaQiMAgBMB2JZQAAW+i0hFy/0jIEAAD+9EJcYJ+UJ1hTF0T9e6Y+DboOq9hf6RaRWOvH2Y8+afRAql0/YM6ZO1dYN7twUj+xae8rf/jDn6XKgAAA"
+    },
+    "star-pattern": {
+      "file": "star-pattern.jpg",
+      "alt": {
+        "en": "A carved wooden panel with an eight-pointed star geometric pattern",
+        "ar": "لوح خشبي منقوش بنمط هندسي لنجمة ثمانية الرؤوس"
+      },
+      "credit": {
+        "name": "Arif YILMAZ",
+        "id": 34680960
+      },
+      "meta": {
+        "camera": "Sony A7 IV",
+        "lens": "24 mm",
+        "exposure": "f/4 · 1/125 s · ISO 1600",
+        "time": "11:20",
+        "place": {
+          "en": "Istanbul, Türkiye",
+          "ar": "إسطنبول، تركيا"
+        }
+      },
+      "w": 1000,
+      "h": 1500,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#281812",
+        "ink": "#efeceb",
+        "accent": "#c7826b",
+        "swatches": [
+          "#523c35",
+          "#685248",
+          "#3c2621",
+          "#7b6960",
+          "#978b81"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRlIBAABXRUJQVlA4IEYBAABQBwCdASoYACQAPu1orFCppaQiqqgBMB2JZwDO8vFn0xyiSXWAh/b19UnDFy5TsA/Kmk0ELNkiyqGFCWW3OgSutjDgAP4Y5fe5VQqcFiBcUEQhH9m15OYF9ZHXVfzHWgec7TMu/fsUqjAxFAQDy0u1zTIVtSapHk2CET6Cd0pzxJbbTInx5uFpiZrsRZD/VTR8FgBzFkIOq1gjVMACMYThf+qhgm3bjYJpwteqTNYFUMI3bmKCW6l882gdDOmUyNDzOk8PAoksF1FtZfN0wEjLs3Njn6dMRYxkKSmmCQpZOiAiIwfwWeyYpNOVKdv7jyTKkWJWdmZ07A2zjDMYyoNU0gKx5SeZ+CThMsovgeksBefEpOlQSQMjwR7exwxn25Em7eNbd8s8JlIv6j0fnKjUZh7MYeJNa3zSxXIpWmO8UKAGleAAAA=="
+    },
+    "jali-window": {
+      "file": "jali-window.jpg",
+      "alt": {
+        "en": "Sunlight glowing through a carved stone lattice window in a dark wall",
+        "ar": "ضوء الشمس يتوهج عبر نافذة حجرية مخرّمة في جدار مظلم"
+      },
+      "credit": {
+        "name": "Jose Aragones",
+        "id": 3254036
+      },
+      "meta": {
+        "camera": "Canon EOS Rebel T3i",
+        "lens": "47 mm",
+        "exposure": "f/4 · ISO 100",
+        "time": "16:30",
+        "place": {
+          "en": "Agra, India",
+          "ar": "أغرا، الهند"
+        }
+      },
+      "w": 1000,
+      "h": 1500,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#0b2f30",
+        "ink": "#e8f2f3",
+        "accent": "#42eff0",
+        "swatches": [
+          "#001111",
+          "#001314",
+          "#061e1f",
+          "#948b84",
+          "#6a5748"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQBACdASoYACQAPt1apE2opSOiNUgBEBuJZQC7ACzay/bJHYVvpjuEyy8AAP70GPO2HmO7Ljz/VLY9pTiMHKCJK+nRJaSEVDw0eaynMBOMq/cihoGSAA=="
+    },
+    "wood-geometry": {
+      "file": "wood-geometry.jpg",
+      "alt": {
+        "en": "Warm light on an intricate wooden geometric screen",
+        "ar": "ضوء دافئ على ستارة خشبية بنقوش هندسية دقيقة"
+      },
+      "credit": {
+        "name": "Mohammed Alim",
+        "id": 32820923
+      },
+      "meta": {
+        "camera": "Fujifilm GFX100 II",
+        "lens": "50 mm",
+        "exposure": "f/3.5 · 1/40 s · ISO 1600",
+        "time": "16:55",
+        "place": {
+          "en": "Courtyard",
+          "ar": "الفناء"
+        }
+      },
+      "w": 1000,
+      "h": 1500,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#2e1b0d",
+        "ink": "#f2ece8",
+        "accent": "#c7916b",
+        "swatches": [
+          "#735136",
+          "#694328",
+          "#845e40",
+          "#5d351b",
+          "#7c4f2e"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAADQBACdASoYACQAPu1uq1GppiOipWzJMB2JZV85eTuhAAj39p0BMzn6mXPoyV1WAAD+6YYb4u1bCD0WP6Q5Z+v4MttTkSqveH4K+gr0anbz9XkwYpyHJo22ECOsHp+26ZFmVZWk9V9ZKQC2JnL6cxitLBOm0aGVUytkEmSpWoQJAm7PXfgA9Y+MhDBVOp+hYHLVBXtggJXgsL9rPQVcGDt3jYN18QP2HuITb2dIAAA="
+    },
+    "minarets-sunset": {
+      "file": "minarets-sunset.jpg",
+      "alt": {
+        "en": "A mosque dome and minarets in silhouette against an orange sunset",
+        "ar": "قبة مسجد ومآذنه في ظل أمام غروب برتقالي"
+      },
+      "credit": {
+        "name": "Kaan ALTUN",
+        "id": 16737017
+      },
+      "meta": {
+        "camera": "Canon EOS 850D",
+        "lens": "135 mm",
+        "exposure": "f/5.6 · 1/400 s · ISO 6400",
+        "time": "17:55",
+        "place": {
+          "en": "Istanbul, Türkiye",
+          "ar": "إسطنبول، تركيا"
+        }
+      },
+      "w": 1000,
+      "h": 1500,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#30180b",
+        "ink": "#f3ede8",
+        "accent": "#f09b42",
+        "swatches": [
+          "#000000",
+          "#ea7800",
+          "#b45c00",
+          "#804001",
+          "#3c1d00"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAACQBQCdASoYACQAPuFepk2opSOiNVv4ARAcCWYAw2OV+zAF6dcMYLqPVzZskVW8RKOO5Te3QAD+0LZ2SENRbeCUFg5wOqEGx6mwMgpSgQyXDDuX/oqN5Zf0VBRgwvrCav6YYPZxLBDnbx7OuSJP2zTNm/egDNNUnnW5xpSe16N8hbRuryUZ2IjqnWhmxmip/U/gVqxalMHUveDNcruh29StEnzErez6AAA="
+    },
+    "milky-way-coast": {
+      "file": "milky-way-coast.jpg",
+      "alt": {
+        "en": "The Milky Way rising above a rugged coastline at night",
+        "ar": "درب التبانة يرتفع فوق ساحل وعر في الليل"
+      },
+      "credit": {
+        "name": "Zetong Li",
+        "id": 18780417
+      },
+      "meta": {
+        "camera": "Nikon Z 6",
+        "lens": "20 mm",
+        "exposure": "f/2 · 30 s · ISO 6400",
+        "time": "01:20",
+        "place": {
+          "en": "Pacific coast, USA",
+          "ar": "ساحل المحيط الهادئ، الولايات المتحدة"
+        }
+      },
+      "w": 1000,
+      "h": 1503,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#171f23",
+        "ink": "#f1ede9",
+        "accent": "#c7966b",
+        "swatches": [
+          "#485157",
+          "#251b14",
+          "#27343d",
+          "#0b1016",
+          "#3c2b1b"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAACwBQCdASoYACQAPu1qrVCppiQipWzJMB2JZQCyzDnhhKQ5585DNZoDnFEuQAOSfZnuLMDwRwAA/viSw8nneooDngx6Tnt+P1VpLVlooILNonN/Di+lu4iOAdZ45V4Bx/PB/w8ihUnx0ESfQVfko4eZifnzx/uuyi5zk6dwPbHN7xZEw+X/FCB+0bD48+4LueOlzqvK0AA="
+    },
+    "about-portrait": {
+      "file": "about-portrait.jpg",
+      "alt": {
+        "en": "A photographer in silhouette holding up a phone to a vivid red and violet sunset",
+        "ar": "مصوّر في ظل يرفع هاتفه نحو غروب أحمر وبنفسجي"
+      },
+      "credit": {
+        "name": "Devyn Breslin",
+        "id": 18130039
+      },
+      "meta": {
+        "camera": "Sony A7R III",
+        "lens": "35 mm",
+        "exposure": "f/2 · 1/320 s · ISO 160",
+        "time": "18:02",
+        "place": {
+          "en": "Waterfront",
+          "ar": "الواجهة البحرية"
+        }
+      },
+      "w": 1000,
+      "h": 1499,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#27102b",
+        "ink": "#f3e9e8",
+        "accent": "#ed7467",
+        "swatches": [
+          "#29182b",
+          "#140f0b",
+          "#512340",
+          "#8a3555",
+          "#1c1110"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAAAwBgCdASoYACQAPu1gqk2ppSQiMBqqqTAdiUAXZRAAZVYlFLWnoUdfQaPtcpqciyIuJ0WCK85iS3wAAP70G0Oj4IOLkVzqOVrhAnybfrfZKH5ThcODmTJqSiWDjmThV7FR47DRNmp96dEWrvQdlsYqs8iNbX+cuL4QH6WZQgE0ofvcB/LcxhP5wdxygY4gru0z8aXqj9RuoGmnT6XtHkoAAAA="
+    },
+    "coastal-golden": {
+      "file": "coastal-golden.jpg",
+      "alt": {
+        "en": "The sun setting behind mountains above a seaside village",
+        "ar": "الشمس تغيب خلف الجبال فوق قرية ساحلية"
+      },
+      "credit": {
+        "name": "Matthias Groeneveld",
+        "id": 2808320
+      },
+      "meta": {
+        "camera": null,
+        "lens": null,
+        "exposure": null,
+        "time": "16:40",
+        "place": {
+          "en": "Seaside village",
+          "ar": "قرية ساحلية"
+        }
+      },
+      "w": 1000,
+      "h": 667,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#281913",
+        "ink": "#f3ece8",
+        "accent": "#f4ae7b",
+        "swatches": [
+          "#261d19",
+          "#a9827c",
+          "#7c6771",
+          "#59433f",
+          "#daa086"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACQBACdASoYABAAPu1iqU2ppaQiMAgBMB2JQBOmUGMHr+gcoO4HbOnIzeQMeqAA/H5Vk7wRvZLrxsTmAwD4yEIevgrhYwtNYvblK1SCAybQE/xyzWXtNR2HFVZ0rcPAS7gAAA=="
+    },
+    "cumulus": {
+      "file": "cumulus.jpg",
+      "alt": {
+        "en": "Dark towering cumulus clouds with warm light at their edges",
+        "ar": "غيوم ركامية داكنة شاهقة تحيط بحوافها أشعة دافئة"
+      },
+      "credit": {
+        "name": "Tim Mossholder",
+        "id": 1605148
+      },
+      "meta": {
+        "camera": "Nikon D850",
+        "lens": "34 mm",
+        "exposure": "f/5 · ISO 64",
+        "time": "11:30",
+        "place": {
+          "en": "Overhead",
+          "ar": "فوق الرأس"
+        }
+      },
+      "w": 1000,
+      "h": 667,
+      "sizes": [
+        800,
+        1600,
+        2400
+      ],
+      "palette": {
+        "bg": "#112a26",
+        "ink": "#eaf0ef",
+        "accent": "#6bc7b7",
+        "swatches": [
+          "#182826",
+          "#4a4b4f",
+          "#746c6e",
+          "#a2948f",
+          "#c8b6ad"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwAwCdASoYABAAPu1iqk2ppaQiMAgBMB2JYwCw7BtIOUYiORNUPpR0APpg2+wUnCmkzS4ruT9FIGKq0MXzHOehRusasioTr9RwznrYd3gZPi9tlEZ4HqY+3UyU2San2d6PAAAA"
+    },
+    "photographer": {
+      "file": "photographer.jpg",
+      "alt": {
+        "en": "A photographer at dusk holding up a phone to frame the rising moon",
+        "ar": "مصوّر عند الغسق يرفع هاتفه ليؤطّر القمر الطالع"
+      },
+      "credit": {
+        "name": "Yunus Tuğ",
+        "id": 13070128
+      },
+      "meta": {
+        "camera": null,
+        "lens": null,
+        "exposure": null,
+        "time": "18:52",
+        "place": {
+          "en": "Waterfront",
+          "ar": "الواجهة البحرية"
+        }
+      },
+      "w": 1000,
+      "h": 1500,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#0b1f30",
+        "ink": "#e8eef3",
+        "accent": "#46a2ec",
+        "swatches": [
+          "#072a45",
+          "#040504",
+          "#05172b",
+          "#2e4659",
+          "#131216"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAADwBACdASoYACQAPu1mqU6puqOiMBqoA1AdiUAWxL/8DfCaNMEOPxcsdOGo9OQq/wAA/vDK0yVjBUJuy9K3BMzt41tCtf0FxglHhuHJ6bX875uofmWBSRkXmW/2WLTn/JV92O/wxmt0sAoiC/IBnJKIv/yvLN/FR+YDipoX+NwKwAAA"
+    },
+    "rooftop-start": {
+      "file": "rooftop-start.jpg",
+      "alt": {
+        "en": "A photographer with a camera on a red rooftop above the city at sunset",
+        "ar": "مصوّر بكاميرته على سطح أحمر فوق المدينة عند الغروب"
+      },
+      "credit": {
+        "name": "Miguel González",
+        "id": 16418579
+      },
+      "meta": {
+        "camera": null,
+        "lens": null,
+        "exposure": null,
+        "time": "17:46",
+        "place": {
+          "en": "Mexico City, Mexico",
+          "ar": "مكسيكو سيتي، المكسيك"
+        }
+      },
+      "w": 1000,
+      "h": 1500,
+      "sizes": [
+        600,
+        1200,
+        1800
+      ],
+      "palette": {
+        "bg": "#301f0b",
+        "ink": "#f3eee8",
+        "accent": "#efbc80",
+        "swatches": [
+          "#fae9d6",
+          "#724341",
+          "#462827",
+          "#e2c8b5",
+          "#797673"
+        ]
+      },
+      "blur": "data:image/webp;base64,UklGRsIAAABXRUJQVlA4ILYAAADQBQCdASoYACQAPu1erU+ppKQiMBVaqTAdiWMAsR+NQfhkZ93aVxMoCocAkBAuKtidTsKYoC0AAP3ilxBGeu8krhQaJ9RVcgP65sDr3Er0UcMD9CK922+wZzKWKRIxYWWi0HFapVlGfquKwCpM6fszi2swPic586COiybBfvhMhyO2J3I2+VMDm9Md+AZYW+kBhyVjrl/MLXsqVElTi90yKO5fQKlmVPFFlp8xyor9ebESEAAAAA=="
+    }
+  }
+}

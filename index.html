@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>%BRAND% · %PHOTOGRAPHER%, sky photographer</title>
+    <meta name="description" content="%DESCRIPTION%" />
+    <meta name="theme-color" content="%THEME%" />
+    <meta property="og:title" content="%BRAND% · %TAGLINE%" />
+    <meta property="og:description" content="%DESCRIPTION%" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script>
+      try {
+        var l = localStorage.getItem('lang')
+        if (l === 'ar') { document.documentElement.lang = 'ar'; document.documentElement.dir = 'rtl' }
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
