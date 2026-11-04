@@ -3,3 +3,4 @@ dist
 photos-src
 .DS_Store
 *.local
+.vercel
