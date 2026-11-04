@@ -2,7 +2,7 @@
 
 Shafaq (شفق, the glow left in the sky after sunset) is a static, bilingual (English and Arabic) portfolio template for a sky photographer: sunrises, sunsets, moonrises, storms, city lights and patterns. The photos are the hero; the interface stays out of the way and takes its colour from whatever photo is on screen.
 
-Everything on the page (name, city, story, collections, photos and their metadata, prices, contact details and both languages) comes from `src/content.json`, so it can be rebranded without touching code. The photographer, brand, prices and contacts are fictional placeholders.
+The page is deliberately short: hero, the photographer's story, six chapters, the sun path dial, and one booking section with prices. Everything on it (name, city, story, collections, photos and their metadata, prices, contact details and both languages) comes from `src/content.json`, so it can be rebranded without touching code. The photographer, brand, prices and contacts are fictional placeholders.
 
 Built with Vite + TypeScript (no framework), GSAP (ScrollTrigger, Flip) and Lenis. No backend, no API keys.
 
@@ -12,10 +12,9 @@ Built with Vite + TypeScript (no framework), GSAP (ScrollTrigger, Flip) and Leni
 - **Meet the photographer.** A first-person story section: the portrait rises through a circular "sunrise" mask and is tinted with the live palette, paragraphs reveal line by line (real line breaks, measured after fonts load, in both languages), a pull quote brightens word by word above a signature, a milestone line draws across the years and counters run up.
 - **Six chapters** (Sunrise, Sunset, Moon, Storms, City Lights, Patterns), each with a scroll-scrubbed cover reveal and a masonry gallery whose columns drift at different speeds. The chapter index floats a cover preview under the cursor. Storms opens with one faint lightning flicker.
 - **Adaptive colour.** Each section hands the page theme to its photo's palette as it reaches the middle of the screen.
-- **Lightbox.** GSAP Flip carries the thumbnail into a full-screen viewer (thumbnails keep each photo's true aspect, so the scale stays uniform), with camera, lens, exposure, time, place and credit; keyboard (arrows follow the reading direction, Esc, focus trap and focus return), swipe on touch, the sharp file swapped in only after `decode()`, and neighbours decoded ahead.
+- **Lightbox.** GSAP Flip carries the thumbnail into a full-screen viewer (thumbnails keep each photo's true aspect, so the scale stays uniform), with camera, lens, exposure, time, place and credit (sample data, see Credits); keyboard (arrows follow the reading direction, Esc, focus trap and focus return), swipe on touch, the sharp file swapped in only after `decode()`, and neighbours decoded ahead.
 - **Sun path dial.** A 24-hour dial with noon at the top and midnight at the bottom. Drag the sun (or focus it and use arrow keys, Page Up/Down, Home/End) and the photo, readout and page colour follow; below the horizon it turns into the moon.
-- **Night section** with a starfield drawn once to a canvas and rotated by a CSS transform.
-- About-adjacent extras: brand collaborations, services and pricing in USD, a limited-edition print shop teaser with WhatsApp reservation links, a drifting Instagram strip and a WhatsApp/email booking section.
+- **Book a sky.** One closing section: WhatsApp (pre-filled message in the visitor's language) and email, then three offerings with USD prices.
 - **English and Arabic.** Toggle in the header, saved in `localStorage`; `lang` and `dir` update, layout mirrors through logical CSS properties, horizontal motion and arrows flip, the dial puts morning on the reader's starting side. Arabic uses IBM Plex Sans Arabic, Latin uses Manrope. Times, prices and numbers stay in Western digits and are isolated with `<bdi>`.
 - Desktop cursor that eases after the pointer and opens into a "View" lens over photos; magnetic buttons.
 - Accessibility: semantic sections and headings, alt text in both languages, skip link, keyboard dial and lightbox, `prefers-reduced-motion` turns off smooth scrolling, parallax, flicker and reveals.
@@ -28,9 +27,9 @@ Measured with a scripted wheel scroll through the whole page in headless Chrome 
 
 | Viewport | CPU | Frames | Average | p95 | p99 | Frames > 33 ms |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1440×900 | 1× | 1556 | 8.37 ms | 8.8 ms | 10.2 ms | 1 |
-| 390×844 | 1× | 4204 | 8.46 ms | 9.1 ms | 10.1 ms | 5 |
-| 1440×900 | 4× throttled | 1224 | 12.88 ms | 25.3 ms | 26.8 ms | 5 |
+| 1440×900 | 1× | 1370 | 8.35 ms | 9.2 ms | 9.3 ms | 1 |
+| 390×844 | 1× | 3538 | 8.31 ms | 9.0 ms | 9.3 ms | 0 |
+| 1440×900 | 4× throttled | 1106 | 12.36 ms | 24.9 ms | 25.8 ms | 5 |
 
 ## Run it
 
@@ -44,24 +43,25 @@ pnpm build && pnpm preview
 
 Edit `src/content.json`:
 
-- `brand`: name, Arabic name, photographer, city, tagline, Instagram link and handle, email, WhatsApp number (`number` is digits only for wa.me links).
+- `brand`: name, Arabic name, photographer, city, tagline, email, WhatsApp number (`number` is digits only for wa.me links).
 - `hero.stops`: the photo sequence for the hero, each with a phase name, time and sun (or moon) altitude.
 - `about`: the photographer's story, portrait, quote, milestones and counters.
 - `chapters.items`: collections with a cover and an ordered list of photo ids. Add `"effect": "lightning"` to any chapter for the flicker.
 - `sunpath`: sunrise and sunset times, maximum sun altitude, start time and the photos the dial picks between.
-- `services`, `prints`, `collabs`, `feed`, `contact`, `credits`: the rest of the page.
+- `contact` and `services`: the booking section and its three offerings.
+- `credits`: footer links (author, template repo, licence, photo credits).
 - Every piece of copy is an `{ "en": "...", "ar": "..." }` pair.
 
 ### Adding photos
 
 1. Put the original JPG in `photos-src/` (git-ignored).
-2. Add an entry under `photos` in `content.json` with `file`, `alt` (both languages), `credit` and `meta` (camera, lens, exposure, time, place). Leave camera fields as `null` if unknown.
+2. Add an entry under `photos` in `content.json` with `file`, `alt` (both languages), `credit` and `meta` (camera, lens, exposure, time, place).
 3. Run `pnpm photos`. It writes `public/photos/<id>-<width>.avif|webp` (800/1600/2400 wide for landscape, 600/1200/1800 for portrait), then fills in `w`, `h`, `sizes`, the colour `palette` (k-means over a thumbnail: background, ink with at least 7:1 contrast, accent) and the base64 `blur` placeholder. Use `pnpm photos --force` to re-encode everything.
-4. Reference the id from a chapter, the hero, the dial, prints or the feed.
+4. Reference the id from a chapter, the hero, the dial or the about section.
 
 ## Credits
 
-All photographs come from [Pexels](https://www.pexels.com) under the [Pexels License](https://www.pexels.com/license/) (free for commercial use, no attribution required). Each was checked on its Pexels page. They are credited here anyway, with thanks. Captions, places and times on the site are illustrative; camera data comes from each photo's original upload where it was recorded.
+All photographs come from [Pexels](https://www.pexels.com) under the [Pexels License](https://www.pexels.com/license/) (free for commercial use, no attribution required). Each was checked on its Pexels page. They are credited here anyway, with thanks. **The metadata shown in the lightbox (camera, lens, exposure, time) is sample data** written for a fictional phone-first sky photographer (iPhone 15 Pro, with a small mirrorless kit for storms and long lenses). It is not the photographers' real EXIF. Captions and times are illustrative; places are real only where Pexels recorded them.
 
 - `blue-hour-skyline`: [Alfred GF](https://www.pexels.com/photo/11545441/)
 - `dawn-boat`: [Nuno Obey](https://www.pexels.com/photo/128302/)
@@ -78,7 +78,6 @@ All photographs come from [Pexels](https://www.pexels.com) under the [Pexels Lic
 - `sunset-city-sun`: [Quang Nguyen Vinh](https://www.pexels.com/photo/6710686/)
 - `sunset-silhouette`: [Italo Melo](https://www.pexels.com/photo/2356139/)
 - `sunset-storm-sea`: [Willian Justen de Vasconcellos](https://www.pexels.com/photo/16116629/)
-- `clouds-pastel`: [eberhard grossgasteiger](https://www.pexels.com/photo/19779597/)
 - `moon-towers`: [Jesus Toledo](https://www.pexels.com/photo/30199537/)
 - `moon-path`: [Adelin M](https://www.pexels.com/photo/5052131/)
 - `moon-dusk-sea`: [Alina Rossoshanska](https://www.pexels.com/photo/17241532/)
@@ -102,8 +101,6 @@ All photographs come from [Pexels](https://www.pexels.com) under the [Pexels Lic
 - `jali-window`: [Jose Aragones](https://www.pexels.com/photo/3254036/)
 - `wood-geometry`: [Mohammed Alim](https://www.pexels.com/photo/32820923/)
 - `minarets-sunset`: [Kaan ALTUN](https://www.pexels.com/photo/16737017/)
-- `milky-way-coast`: [Zetong Li](https://www.pexels.com/photo/18780417/)
-- `about-portrait`: [Devyn Breslin](https://www.pexels.com/photo/18130039/)
 - `coastal-golden`: [Matthias Groeneveld](https://www.pexels.com/photo/2808320/)
 - `cumulus`: [Tim Mossholder](https://www.pexels.com/photo/1605148/)
 - `photographer`: [Yunus Tuğ](https://www.pexels.com/photo/13070128/)

@@ -28,6 +28,7 @@ export function initHero() {
   let lastTime = ''
   let lastAlt = ''
   let pos = 0
+  let active = true
 
   const label = (i: number) => {
     shown = i
@@ -41,7 +42,9 @@ export function initHero() {
     pos = p
     const i = Math.min(n - 2, Math.floor(p))
     const f = p - i
-    mixTheme(pal[i], pal[i + 1], f)
+    // Only own the page colour while pinned; a scrub still catching up after a
+    // jump past the hero must not override the section now on screen.
+    if (active) mixTheme(pal[i], pal[i + 1], f)
     const near = Math.round(p)
     if (near !== shown) label(near)
     const time = fromMinutes(mins[i] + (mins[i + 1] - mins[i]) * f)
@@ -81,7 +84,8 @@ export function initHero() {
     scrub: reduceMotion ? true : 0.7,
     animation: tl,
     onToggle: (self) => {
-      if (self.isActive) update(stopAt(tl.time()))
+      active = self.isActive
+      if (active) update(stopAt(tl.time()))
     },
   })
   // Follow the scrubbed timeline itself (not raw scroll) so labels and colour

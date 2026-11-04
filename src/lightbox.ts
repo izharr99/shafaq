@@ -9,7 +9,6 @@ import { gsap, Flip, reduceMotion, stopScroll, startScroll } from './smooth'
 // the thumbnail, and the neighbours are decoded in the background.
 
 const groups: Record<string, string[]> = Object.fromEntries(C.chapters.items.map((c) => [c.id, c.photos]))
-groups.prints = C.prints.items.map((p) => p.photo)
 
 export function initLightbox() {
   const lb = document.querySelector<HTMLElement>('.lb')!
@@ -44,13 +43,12 @@ export function initLightbox() {
 
   function meta(id: string) {
     const p = photo(id)
-    const nr = t(C.ui.lightbox.notRecorded)
     $('lb-alt').textContent = t(p.alt)
     $('lb-time').textContent = p.meta.time
     $('lb-place').textContent = t(p.meta.place)
-    $('lb-camera').textContent = p.meta.camera ?? nr
-    $('lb-lens').textContent = p.meta.lens ?? nr
-    $('lb-exposure').textContent = p.meta.exposure ?? nr
+    $('lb-camera').textContent = p.meta.camera
+    $('lb-lens').textContent = p.meta.lens
+    $('lb-exposure').textContent = p.meta.exposure
     const a = $('lb-credit') as HTMLAnchorElement
     a.textContent = `${p.credit.name} / Pexels`
     a.href = `https://www.pexels.com/photo/${p.credit.id}/`
@@ -123,7 +121,7 @@ export function initLightbox() {
       lb.hidden = true
       isOpen = false
       busy = false
-      document.querySelectorAll<HTMLElement>('.g-btn picture, .print__mat picture').forEach((p) => gsap.set(p, { opacity: 1 }))
+      document.querySelectorAll<HTMLElement>('.g-btn picture').forEach((p) => gsap.set(p, { opacity: 1 }))
       gsap.set(frame, { clearProps: 'transform,opacity' })
       document.documentElement.classList.remove('lb-open')
       startScroll()

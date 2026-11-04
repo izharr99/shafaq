@@ -3,8 +3,7 @@ import { onLang } from './i18n'
 import { themeTo, NEUTRAL } from './theme'
 import { gsap, ScrollTrigger, reduceMotion } from './smooth'
 
-// Word-mask headline reveals, fades, clip-path photo reveals, counters,
-// parallax and the colour zones that hand the page theme from section to section.
+// Word-mask headline reveals, fades, counters, the scrubbed quote and the colour zones that hand the page theme from section to section.
 
 /** Wraps each word in a mask. Words, never letters, so Arabic letters stay joined. */
 function split(el: HTMLElement) {
@@ -57,25 +56,6 @@ function fades() {
   gsap.set('[data-fade]', { opacity: 0 })
 }
 
-function clips() {
-  if (reduceMotion) return
-  document.querySelectorAll<HTMLElement>('.clip').forEach((el) => {
-    gsap.fromTo(
-      el,
-      { clipPath: 'inset(22% 8% 22% 8%)' },
-      { clipPath: 'inset(0% 0% 0% 0%)', ease: 'none', scrollTrigger: { trigger: el, start: 'top 95%', end: 'top 35%', scrub: 0.6 } },
-    )
-  })
-}
-
-function parallax() {
-  if (reduceMotion) return
-  document.querySelectorAll<HTMLElement>('[data-speed]').forEach((el) => {
-    const s = Number(el.dataset.speed)
-    gsap.fromTo(el, { yPercent: -s }, { yPercent: s, ease: 'none', scrollTrigger: { trigger: el.parentElement, start: 'top bottom', end: 'bottom top', scrub: true } })
-  })
-}
-
 function counters() {
   document.querySelectorAll<HTMLElement>('[data-count]').forEach((el) => {
     const target = Number(el.dataset.count)
@@ -94,7 +74,7 @@ function counters() {
   })
 }
 
-/** Scroll-linked word brightening for the practice statement. */
+/** Scroll-linked word brightening for the photographer's pull quote. */
 function intro() {
   const el = document.querySelector<HTMLElement>('[data-words]')!
   let st: ScrollTrigger | undefined
@@ -136,8 +116,6 @@ function zones() {
 export function initReveals() {
   headlines()
   fades()
-  clips()
-  parallax()
   counters()
   intro()
   zones()

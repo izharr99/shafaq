@@ -23,8 +23,6 @@
       "en": "Shafaq is the portfolio of Idris Karam, a sky photographer based in Muscat. Sunrises, sunsets, moonrises, storms and city lights, with prints and commissions.",
       "ar": "شفق هو معرض إدريس كرم، مصوّر سماء يقيم في مسقط. شروق وغروب وطلوع قمر وعواصف وأضواء مدن، مع مطبوعات فنية وجلسات تصوير بالطلب."
     },
-    "handle": "@shafaq.skies",
-    "instagram": "https://www.instagram.com/",
     "email": "hello@shafaq.example",
     "whatsapp": {
       "display": "+1 212 555 0142",
@@ -49,10 +47,6 @@
         "en": "About",
         "ar": "عنّي"
       },
-      "prints": {
-        "en": "Prints",
-        "ar": "المطبوعات"
-      },
       "contact": {
         "en": "Book",
         "ar": "احجز"
@@ -69,10 +63,6 @@
     "view": {
       "en": "View",
       "ar": "عرض"
-    },
-    "open": {
-      "en": "Open",
-      "ar": "افتح"
     },
     "scrollCue": {
       "en": "Scroll through one day",
@@ -135,22 +125,10 @@
         "en": "Photo",
         "ar": "تصوير"
       },
-      "notRecorded": {
-        "en": "Not recorded",
-        "ar": "غير مسجّل"
-      },
       "swipe": {
         "en": "Swipe or use the arrow keys",
         "ar": "اسحب أو استخدم مفاتيح الأسهم"
       }
-    },
-    "altitude": {
-      "en": "Altitude",
-      "ar": "الارتفاع"
-    },
-    "menu": {
-      "en": "Menu",
-      "ar": "القائمة"
     }
   },
   "hero": {
@@ -506,17 +484,6 @@
       }
     ]
   },
-  "night": {
-    "kicker": {
-      "en": "After the last light",
-      "ar": "بعد آخر ضوء"
-    },
-    "title": {
-      "en": "The sky does not switch off. It just changes shift.",
-      "ar": "السماء لا تنطفئ، إنها فقط تبدّل نوبتها."
-    },
-    "photo": "milky-way-coast"
-  },
   "about": {
     "kicker": {
       "en": "Meet the photographer",
@@ -558,7 +525,6 @@
       "en": "Most of the sky's best work happens in about ten minutes a day. I plan around those minutes: tide tables, cloud models, moonrise times, and coffee on a rooftop before anyone else is awake.",
       "ar": "أجمل ما تصنعه السماء يحدث في نحو عشر دقائق كل يوم. أرتّب يومي حول تلك الدقائق: جداول المدّ، وخرائط الغيوم، ومواعيد طلوع القمر، وقهوة على السطح قبل أن يستيقظ أحد."
     },
-    "signature": "Idris",
     "milestonesTitle": {
       "en": "Along the way",
       "ar": "محطات على الطريق"
@@ -643,64 +609,10 @@
       }
     ]
   },
-  "collabs": {
-    "kicker": {
-      "en": "Worked with",
-      "ar": "تعاونت مع"
-    },
-    "items": [
-      {
-        "name": "Marea Hotels",
-        "kind": {
-          "en": "Rooftop campaign",
-          "ar": "حملة الأسطح"
-        }
-      },
-      {
-        "name": "Ninefold Mobile",
-        "kind": {
-          "en": "Night mode launch",
-          "ar": "إطلاق الوضع الليلي"
-        }
-      },
-      {
-        "name": "Tidewater Air",
-        "kind": {
-          "en": "In-flight magazine",
-          "ar": "مجلة الرحلات"
-        }
-      },
-      {
-        "name": "Qasr Coffee Roasters",
-        "kind": {
-          "en": "Sunrise packaging",
-          "ar": "تغليف الشروق"
-        }
-      },
-      {
-        "name": "Lumen Optics",
-        "kind": {
-          "en": "Lens field tests",
-          "ar": "اختبارات العدسات"
-        }
-      },
-      {
-        "name": "Seaglass Residences",
-        "kind": {
-          "en": "View photography",
-          "ar": "تصوير الإطلالات"
-        }
-      }
-    ]
-  },
   "services": {
-    "kicker": {
-      "en": "Work with me",
-      "ar": "اعمل معي"
-    },
     "title": {
-      "en": "Shoots, prints and licensing",
-      "ar": "جلسات ومطبوعات وتراخيص"
+      "en": "Three ways to work together",
+      "ar": "ثلاث طرق للعمل معًا"
     },
     "note": {
       "en": "Prices in USD. Travel outside Muscat is quoted separately.",
@@ -759,120 +671,7 @@
           "en": "Editorial, web and print use of any photo in the archive, with high resolution files within 24 hours.",
           "ar": "استخدام أي صورة من الأرشيف في التحرير أو الويب أو الطباعة، مع ملفات عالية الدقة خلال 24 ساعة."
         }
-      },
-      {
-        "name": {
-          "en": "Phone sky workshop",
-          "ar": "ورشة تصوير السماء بالهاتف"
-        },
-        "price": 120,
-        "unit": {
-          "en": "per person",
-          "ar": "للشخص"
-        },
-        "body": {
-          "en": "A sunrise on the beach and a coffee after: exposure, timing and editing, all on the phone you already have.",
-          "ar": "شروق على الشاطئ وقهوة بعده: التعريض والتوقيت والتعديل، كلها على الهاتف الذي تملكه."
-        }
       }
-    ]
-  },
-  "prints": {
-    "kicker": {
-      "en": "Print shop",
-      "ar": "متجر المطبوعات"
-    },
-    "title": {
-      "en": "Limited editions, printed on cotton rag.",
-      "ar": "إصدارات محدودة مطبوعة على ورق قطني."
-    },
-    "body": {
-      "en": "Each photograph is printed in an edition of 25, signed and numbered, and shipped flat from Muscat.",
-      "ar": "تُطبع كل صورة في إصدار من 25 نسخة فقط، موقّعة ومرقّمة، وتُشحن مسطّحة من مسقط."
-    },
-    "edition": {
-      "en": "Edition of 25",
-      "ar": "إصدار من 25 نسخة"
-    },
-    "cta": {
-      "en": "Reserve on WhatsApp",
-      "ar": "احجز عبر واتساب"
-    },
-    "items": [
-      {
-        "photo": "moon-towers",
-        "title": {
-          "en": "Four Minutes",
-          "ar": "أربع دقائق"
-        },
-        "sizes": [
-          {
-            "label": "12 × 16 in",
-            "price": 95
-          },
-          {
-            "label": "24 × 32 in",
-            "price": 320
-          }
-        ]
-      },
-      {
-        "photo": "sunset-boat",
-        "title": {
-          "en": "Last Boat Home",
-          "ar": "آخر قارب إلى البيت"
-        },
-        "sizes": [
-          {
-            "label": "12 × 18 in",
-            "price": 95
-          },
-          {
-            "label": "24 × 36 in",
-            "price": 340
-          }
-        ]
-      },
-      {
-        "photo": "lightning-sea",
-        "title": {
-          "en": "One Good Bolt",
-          "ar": "ومضة واحدة"
-        },
-        "sizes": [
-          {
-            "label": "12 × 18 in",
-            "price": 110
-          },
-          {
-            "label": "30 × 45 in",
-            "price": 560
-          }
-        ]
-      }
-    ]
-  },
-  "feed": {
-    "kicker": {
-      "en": "Daily on Instagram",
-      "ar": "يوميًا على إنستغرام"
-    },
-    "cta": {
-      "en": "Follow the sky",
-      "ar": "تابع السماء"
-    },
-    "photos": [
-      "about-portrait",
-      "clouds-pastel",
-      "moon-path",
-      "sunrise-rooftops",
-      "lightning-city",
-      "minarets-sunset",
-      "light-trails",
-      "crescent-detail",
-      "sunset-silhouette",
-      "shelf-cloud",
-      "cumulus"
     ]
   },
   "contact": {
@@ -923,8 +722,8 @@
       "ar": "حقوق الصور"
     },
     "photoCreditsIntro": {
-      "en": "All photographs are from Pexels under the Pexels License (free for commercial use). Shafaq and Idris Karam are fictional; captions and times are illustrative, camera data is from each photo's original upload.",
-      "ar": "جميع الصور من موقع Pexels بموجب رخصة Pexels (مجانية للاستخدام التجاري). شفق وإدريس كرم شخصيات خيالية، والتعليقات والأوقات توضيحية، أما بيانات الكاميرا فمن الرفع الأصلي لكل صورة."
+      "en": "All photographs are from Pexels under the Pexels License (free for commercial use). Shafaq and Idris Karam are fictional; captions, times and camera details are sample data.",
+      "ar": "جميع الصور من موقع Pexels بموجب رخصة Pexels (مجانية للاستخدام التجاري). شفق وإدريس كرم شخصيات خيالية، والتعليقات والأوقات وبيانات الكاميرا بيانات تجريبية."
     },
     "rights": {
       "en": "Sample portfolio. Names, prices and contacts are placeholders.",
@@ -943,9 +742,9 @@
         "id": 11545441
       },
       "meta": {
-        "camera": "Sony A7R IV",
-        "lens": "24 mm",
-        "exposure": "f/16 · 30 s · ISO 100",
+        "camera": "iPhone 15 Pro",
+        "lens": "24 mm f/1.78",
+        "exposure": "1/30 s · ISO 250",
         "time": "05:38",
         "place": {
           "en": "New York, USA",
@@ -984,9 +783,9 @@
         "id": 128302
       },
       "meta": {
-        "camera": "Canon EOS 7D",
-        "lens": "17 mm",
-        "exposure": "f/22 · 3.2 s · ISO 100",
+        "camera": "iPhone 15 Pro",
+        "lens": "24 mm f/1.78",
+        "exposure": "1/120 s · ISO 64",
         "time": "06:04",
         "place": {
           "en": "Still water",
@@ -1025,9 +824,9 @@
         "id": 4383348
       },
       "meta": {
-        "camera": "DJI Spark",
-        "lens": "4.5 mm",
-        "exposure": "f/2.6 · 1/4000 s · ISO 100",
+        "camera": "iPhone 15 Pro",
+        "lens": "24 mm f/1.78",
+        "exposure": "1/2000 s · ISO 50",
         "time": "17:21",
         "place": {
           "en": "Coastal town, from the air",
@@ -1066,9 +865,9 @@
         "id": 7864468
       },
       "meta": {
-        "camera": "Canon EOS 3000D",
-        "lens": "55 mm",
-        "exposure": "f/25 · 1/80 s · ISO 400",
+        "camera": "iPhone 15 Pro",
+        "lens": "77 mm f/2.8 telephoto",
+        "exposure": "1/1000 s · ISO 50",
         "time": "17:52",
         "place": {
           "en": "Northern Mindanao, Philippines",
@@ -1107,9 +906,9 @@
         "id": 18694287
       },
       "meta": {
-        "camera": null,
-        "lens": null,
-        "exposure": null,
+        "camera": "iPhone 15 Pro",
+        "lens": "24 mm f/1.78",
+        "exposure": "1/50 s · ISO 320",
         "time": "18:16",
         "place": {
           "en": "Riverfront",
@@ -1148,9 +947,9 @@
         "id": 25819968
       },
       "meta": {
-        "camera": "Canon EOS 5D Mark III",
-        "lens": "73 mm",
-        "exposure": "f/13 · 4 s · ISO 50",
+        "camera": "iPhone 15 Pro",
+        "lens": "77 mm f/2.8 telephoto",
+        "exposure": "1/15 s · ISO 640",
         "time": "18:49",
         "place": {
           "en": "Open sea",
@@ -1189,9 +988,9 @@
         "id": 4090111
       },
       "meta": {
-        "camera": "OnePlus 6T",
-        "lens": "4.3 mm",
-        "exposure": "f/1.7 · ISO 100",
+        "camera": "Sony A7C II",
+        "lens": "20 mm f/1.8",
+        "exposure": "20 s · ISO 3200",
         "time": "23:10",
         "place": {
           "en": "Rocky shore",
@@ -1230,9 +1029,9 @@
         "id": 35030749
       },
       "meta": {
-        "camera": "Canon EOS 700D",
-        "lens": "101 mm",
-        "exposure": "f/5.6 · 1/160 s · ISO 100",
+        "camera": "iPhone 15 Pro",
+        "lens": "77 mm f/2.8 telephoto",
+        "exposure": "1/640 s · ISO 50",
         "time": "06:21",
         "place": {
           "en": "Eastern shore",
@@ -1271,9 +1070,9 @@
         "id": 408914
       },
       "meta": {
-        "camera": null,
-        "lens": null,
-        "exposure": null,
+        "camera": "iPhone 15 Pro",
+        "lens": "13 mm f/2.2 ultra wide",
+        "exposure": "1/250 s · ISO 50",
         "time": "06:15",
         "place": {
           "en": "Low tide",
@@ -1312,9 +1111,9 @@
         "id": 4282521
       },
       "meta": {
-        "camera": "Panasonic Lumix G9",
-        "lens": "100 mm",
-        "exposure": "f/8 · 1/400 s · ISO 200",
+        "camera": "iPhone 15 Pro",
+        "lens": "77 mm f/2.8 telephoto",
+        "exposure": "1/500 s · ISO 64",
         "time": "06:40",
         "place": {
           "en": "Holbæk, Denmark",
@@ -1353,9 +1152,9 @@
         "id": 8529226
       },
       "meta": {
-        "camera": "Canon EOS Rebel T100",
-        "lens": "55 mm",
-        "exposure": "f/10 · 1/250 s · ISO 100",
+        "camera": "iPhone 15 Pro",
+        "lens": "48 mm f/1.78",
+        "exposure": "1/800 s · ISO 50",
         "time": "06:09",
         "place": {
           "en": "Old quarter",
@@ -1394,9 +1193,9 @@
         "id": 12988245
       },
       "meta": {
-        "camera": "Canon EOS R3",
-        "lens": "400 mm",
-        "exposure": "f/6.3 · 1/400 s · ISO 2000",
+        "camera": "iPhone 15 Pro",
+        "lens": "77 mm f/2.8 telephoto",
+        "exposure": "1/400 s · ISO 80",
         "time": "06:52",
         "place": {
           "en": "Darien, Connecticut",
@@ -1435,9 +1234,9 @@
         "id": 6710686
       },
       "meta": {
-        "camera": null,
-        "lens": null,
-        "exposure": null,
+        "camera": "iPhone 15 Pro",
+        "lens": "77 mm f/2.8 telephoto",
+        "exposure": "1/1600 s · ISO 50",
         "time": "17:40",
         "place": {
           "en": "City haze",
@@ -1476,9 +1275,9 @@
         "id": 2356139
       },
       "meta": {
-        "camera": null,
-        "lens": null,
-        "exposure": null,
+        "camera": "iPhone 15 Pro",
+        "lens": "24 mm f/1.78",
+        "exposure": "1/1250 s · ISO 50",
         "time": "17:49",
         "place": {
           "en": "From the rooftop",
@@ -1517,9 +1316,9 @@
         "id": 16116629
       },
       "meta": {
-        "camera": "Sony A7C",
-        "lens": "29 mm",
-        "exposure": "f/3.2 · 1/1000 s · ISO 160",
+        "camera": "iPhone 15 Pro",
+        "lens": "24 mm f/1.78",
+        "exposure": "1/640 s · ISO 50",
         "time": "17:58",
         "place": {
           "en": "Open water",
@@ -1547,47 +1346,6 @@
       },
       "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADQBQCdASoYACQAPulip02pJaOiNVgIASAdCWMAwzQWbOfMBlwqAg1crZ97mBKMr4dPeYnz1/mQAP7Y5hTLHPBU+gRFS11T4rNPPD9J5Odv5cg4WBKIFksRB6WI2EPdwr+ghf8hjfPH1SNkvvfYuja+uU/pcYwE93I3k1BTHXx6T20Z28W5AxEkN2iTTF/IMXscOjsLcFbADenAAAA="
     },
-    "clouds-pastel": {
-      "file": "clouds-pastel.jpg",
-      "alt": {
-        "en": "Soft pastel clouds glowing pink and lilac after sunset",
-        "ar": "غيوم ناعمة بألوان الباستيل تتوهج بالوردي والليلكي بعد الغروب"
-      },
-      "credit": {
-        "name": "eberhard grossgasteiger",
-        "id": 19779597
-      },
-      "meta": {
-        "camera": null,
-        "lens": null,
-        "exposure": null,
-        "time": "18:05",
-        "place": {
-          "en": "Overhead",
-          "ar": "فوق الرأس"
-        }
-      },
-      "w": 1000,
-      "h": 1500,
-      "sizes": [
-        600,
-        1200,
-        1800
-      ],
-      "palette": {
-        "bg": "#1a1723",
-        "ink": "#f3eae8",
-        "accent": "#dd9d89",
-        "swatches": [
-          "#9d9aac",
-          "#686a88",
-          "#867f98",
-          "#474761",
-          "#ad858c"
-        ]
-      },
-      "blur": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAADwBQCdASoYACQAPu1kpk4ppaMiMBVdUTAdiUAYbP24ihDcfvJ3HB1RuPj6GZk01je4nKn0iIUvAADLDvh4djlr5M/TgqDCztnzlaNSJftCPL3FU1UbirBU8Ln3tdhgArxJDdis4CqKOv8vERZWNa8XRfQdpOCROLwHh/blhK3Lfg6wjhu52jEOO2ZLXxmhtPPv/FcCLTAAAA=="
-    },
     "moon-towers": {
       "file": "moon-towers.jpg",
       "alt": {
@@ -1599,9 +1357,9 @@
         "id": 30199537
       },
       "meta": {
-        "camera": null,
-        "lens": null,
-        "exposure": null,
+        "camera": "Sony A7C II",
+        "lens": "400 mm f/5.6",
+        "exposure": "1/200 s · ISO 800",
         "time": "19:02",
         "place": {
           "en": "Vancouver, Canada",
@@ -1640,9 +1398,9 @@
         "id": 5052131
       },
       "meta": {
-        "camera": "Samsung Galaxy S10e",
-        "lens": "4.3 mm",
-        "exposure": "f/1.5 · 1/20 s · ISO 640",
+        "camera": "iPhone 15 Pro",
+        "lens": "24 mm f/1.78",
+        "exposure": "Night mode 2 s · ISO 800",
         "time": "21:14",
         "place": {
           "en": "Shoreline",
@@ -1681,9 +1439,9 @@
         "id": 17241532
       },
       "meta": {
-        "camera": "Canon EOS 1100D",
-        "lens": "70 mm",
-        "exposure": "f/3.5 · 1/6 s · ISO 800",
+        "camera": "iPhone 15 Pro",
+        "lens": "77 mm f/2.8 telephoto",
+        "exposure": "1/30 s · ISO 500",
         "time": "18:58",
         "place": {
           "en": "Harbour wall",
@@ -1722,9 +1480,9 @@
         "id": 13581999
       },
       "meta": {
-        "camera": null,
-        "lens": null,
-        "exposure": null,
+        "camera": "iPhone 15 Pro",
+        "lens": "77 mm f/2.8 telephoto",
+        "exposure": "Night mode 1 s · ISO 1000",
         "time": "04:52",
         "place": {
           "en": "Before dawn",
@@ -1763,9 +1521,9 @@
         "id": 12705640
       },
       "meta": {
-        "camera": "Sony RX10 IV",
-        "lens": "220 mm",
-        "exposure": "f/4 · 1/160 s · ISO 200",
+        "camera": "Sony A7C II",
+        "lens": "600 mm f/6.3",
+        "exposure": "1/250 s · ISO 400",
         "time": "20:31",
         "place": {
           "en": "Through the long lens",
@@ -1804,9 +1562,9 @@
         "id": 5206826
       },
       "meta": {
-        "camera": "Nikon D3300",
-        "lens": "300 mm",
-        "exposure": "f/6.3 · 1/160 s · ISO 400",
+        "camera": "iPhone 15 Pro",
+        "lens": "77 mm f/2.8 telephoto",
+        "exposure": "1/60 s · ISO 400",
         "time": "18:44",
         "place": {
           "en": "Brasília, Brazil",
@@ -1845,9 +1603,9 @@
         "id": 1114690
       },
       "meta": {
-        "camera": null,
-        "lens": null,
-        "exposure": null,
+        "camera": "Sony A7C II",
+        "lens": "24 mm f/8",
+        "exposure": "15 s · ISO 100",
         "time": "23:47",
         "place": {
           "en": "Maldonado, Uruguay",
@@ -1886,9 +1644,9 @@
         "id": 248775
       },
       "meta": {
-        "camera": null,
-        "lens": null,
-        "exposure": null,
+        "camera": "Sony A7C II",
+        "lens": "35 mm f/8",
+        "exposure": "10 s · ISO 100",
         "time": "20:12",
         "place": {
           "en": "Old pier",
@@ -1926,9 +1684,9 @@
         "id": 4870641
       },
       "meta": {
-        "camera": null,
-        "lens": null,
-        "exposure": null,
+        "camera": "Sony A7C II",
+        "lens": "20 mm f/8",
+        "exposure": "20 s · ISO 100",
         "time": "21:30",
         "place": {
           "en": "Oklahoma City, USA",
@@ -1967,9 +1725,9 @@
         "id": 15470681
       },
       "meta": {
-        "camera": "Nikon D5100",
-        "lens": "18 mm",
-        "exposure": "f/3.5 · 1/50 s · ISO 250",
+        "camera": "iPhone 15 Pro",
+        "lens": "13 mm f/2.2 ultra wide",
+        "exposure": "1/500 s · ISO 50",
         "time": "15:20",
         "place": {
           "en": "Empty beach",
@@ -2008,9 +1766,9 @@
         "id": 9712998
       },
       "meta": {
-        "camera": "Canon EOS R",
-        "lens": "35 mm",
-        "exposure": "f/1.6 · 1/3200 s · ISO 100",
+        "camera": "iPhone 15 Pro",
+        "lens": "24 mm f/1.78",
+        "exposure": "1/1000 s · ISO 50",
         "time": "16:45",
         "place": {
           "en": "Offshore",
@@ -2049,9 +1807,9 @@
         "id": 28823583
       },
       "meta": {
-        "camera": "Fujifilm X-T30 II",
-        "lens": "15 mm",
-        "exposure": "f/3.5 · 0.6 s · ISO 320",
+        "camera": "Sony A7C II",
+        "lens": "24 mm f/5.6",
+        "exposure": "8 s · ISO 200",
         "time": "22:18",
         "place": {
           "en": "Over the rooftops",
@@ -2090,9 +1848,9 @@
         "id": 11557796
       },
       "meta": {
-        "camera": "Nikon Z 6",
-        "lens": "39 mm",
-        "exposure": "f/16 · 69 s · ISO 100",
+        "camera": "iPhone 15 Pro",
+        "lens": "24 mm f/1.78",
+        "exposure": "Night mode 3 s · ISO 640",
         "time": "20:30",
         "place": {
           "en": "North Vancouver, Canada",
@@ -2131,9 +1889,9 @@
         "id": 258173
       },
       "meta": {
-        "camera": null,
-        "lens": null,
-        "exposure": null,
+        "camera": "iPhone 15 Pro",
+        "lens": "24 mm f/1.78",
+        "exposure": "Night mode 2 s · ISO 500",
         "time": "21:05",
         "place": {
           "en": "New York, USA",
@@ -2172,9 +1930,9 @@
         "id": 12110342
       },
       "meta": {
-        "camera": "Canon EOS Rebel T6",
-        "lens": "29 mm",
-        "exposure": "f/20 · 30 s · ISO 100",
+        "camera": "Sony A7C II",
+        "lens": "24 mm f/11",
+        "exposure": "20 s · ISO 100",
         "time": "21:40",
         "place": {
           "en": "Spain",
@@ -2213,9 +1971,9 @@
         "id": 20498898
       },
       "meta": {
-        "camera": null,
-        "lens": null,
-        "exposure": null,
+        "camera": "iPhone 15 Pro",
+        "lens": "24 mm f/1.78",
+        "exposure": "1/25 s · ISO 400",
         "time": "18:24",
         "place": {
           "en": "New York, USA",
@@ -2254,9 +2012,9 @@
         "id": 1598338
       },
       "meta": {
-        "camera": "Canon EOS 5D Mark III",
-        "lens": "27 mm",
-        "exposure": "f/22 · ISO 100",
+        "camera": "iPhone 15 Pro",
+        "lens": "13 mm f/2.2 ultra wide",
+        "exposure": "1/400 s · ISO 50",
         "time": "17:30",
         "place": {
           "en": "Salmiya, Kuwait",
@@ -2295,9 +2053,9 @@
         "id": 30615454
       },
       "meta": {
-        "camera": "Canon EOS R50",
-        "lens": "116 mm",
-        "exposure": "f/6.3 · 1/500 s · ISO 640",
+        "camera": "iPhone 15 Pro",
+        "lens": "77 mm f/2.8 telephoto",
+        "exposure": "1/250 s · ISO 50",
         "time": "15:10",
         "place": {
           "en": "Damascus, Syria",
@@ -2336,9 +2094,9 @@
         "id": 18453549
       },
       "meta": {
-        "camera": "Nikon D5",
-        "lens": "14 mm",
-        "exposure": "f/2.8 · 1/3200 s · ISO 50",
+        "camera": "iPhone 15 Pro",
+        "lens": "13 mm f/2.2 ultra wide",
+        "exposure": "1/120 s · ISO 200",
         "time": "13:40",
         "place": {
           "en": "Şuşa, Azerbaijan",
@@ -2377,9 +2135,9 @@
         "id": 34680960
       },
       "meta": {
-        "camera": "Sony A7 IV",
-        "lens": "24 mm",
-        "exposure": "f/4 · 1/125 s · ISO 1600",
+        "camera": "iPhone 15 Pro",
+        "lens": "48 mm f/1.78",
+        "exposure": "1/60 s · ISO 320",
         "time": "11:20",
         "place": {
           "en": "Istanbul, Türkiye",
@@ -2418,9 +2176,9 @@
         "id": 3254036
       },
       "meta": {
-        "camera": "Canon EOS Rebel T3i",
-        "lens": "47 mm",
-        "exposure": "f/4 · ISO 100",
+        "camera": "iPhone 15 Pro",
+        "lens": "24 mm f/1.78",
+        "exposure": "1/100 s · ISO 125",
         "time": "16:30",
         "place": {
           "en": "Agra, India",
@@ -2459,9 +2217,9 @@
         "id": 32820923
       },
       "meta": {
-        "camera": "Fujifilm GFX100 II",
-        "lens": "50 mm",
-        "exposure": "f/3.5 · 1/40 s · ISO 1600",
+        "camera": "iPhone 15 Pro",
+        "lens": "48 mm f/1.78",
+        "exposure": "1/80 s · ISO 250",
         "time": "16:55",
         "place": {
           "en": "Courtyard",
@@ -2500,9 +2258,9 @@
         "id": 16737017
       },
       "meta": {
-        "camera": "Canon EOS 850D",
-        "lens": "135 mm",
-        "exposure": "f/5.6 · 1/400 s · ISO 6400",
+        "camera": "iPhone 15 Pro",
+        "lens": "77 mm f/2.8 telephoto",
+        "exposure": "1/800 s · ISO 50",
         "time": "17:55",
         "place": {
           "en": "Istanbul, Türkiye",
@@ -2530,88 +2288,6 @@
       },
       "blur": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAACQBQCdASoYACQAPuFepk2opSOiNVv4ARAcCWYAw2OV+zAF6dcMYLqPVzZskVW8RKOO5Te3QAD+0LZ2SENRbeCUFg5wOqEGx6mwMgpSgQyXDDuX/oqN5Zf0VBRgwvrCav6YYPZxLBDnbx7OuSJP2zTNm/egDNNUnnW5xpSe16N8hbRuryUZ2IjqnWhmxmip/U/gVqxalMHUveDNcruh29StEnzErez6AAA="
     },
-    "milky-way-coast": {
-      "file": "milky-way-coast.jpg",
-      "alt": {
-        "en": "The Milky Way rising above a rugged coastline at night",
-        "ar": "درب التبانة يرتفع فوق ساحل وعر في الليل"
-      },
-      "credit": {
-        "name": "Zetong Li",
-        "id": 18780417
-      },
-      "meta": {
-        "camera": "Nikon Z 6",
-        "lens": "20 mm",
-        "exposure": "f/2 · 30 s · ISO 6400",
-        "time": "01:20",
-        "place": {
-          "en": "Pacific coast, USA",
-          "ar": "ساحل المحيط الهادئ، الولايات المتحدة"
-        }
-      },
-      "w": 1000,
-      "h": 1503,
-      "sizes": [
-        600,
-        1200,
-        1800
-      ],
-      "palette": {
-        "bg": "#171f23",
-        "ink": "#f1ede9",
-        "accent": "#c7966b",
-        "swatches": [
-          "#485157",
-          "#251b14",
-          "#27343d",
-          "#0b1016",
-          "#3c2b1b"
-        ]
-      },
-      "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAACwBQCdASoYACQAPu1qrVCppiQipWzJMB2JZQCyzDnhhKQ5585DNZoDnFEuQAOSfZnuLMDwRwAA/viSw8nneooDngx6Tnt+P1VpLVlooILNonN/Di+lu4iOAdZ45V4Bx/PB/w8ihUnx0ESfQVfko4eZifnzx/uuyi5zk6dwPbHN7xZEw+X/FCB+0bD48+4LueOlzqvK0AA="
-    },
-    "about-portrait": {
-      "file": "about-portrait.jpg",
-      "alt": {
-        "en": "A photographer in silhouette holding up a phone to a vivid red and violet sunset",
-        "ar": "مصوّر في ظل يرفع هاتفه نحو غروب أحمر وبنفسجي"
-      },
-      "credit": {
-        "name": "Devyn Breslin",
-        "id": 18130039
-      },
-      "meta": {
-        "camera": "Sony A7R III",
-        "lens": "35 mm",
-        "exposure": "f/2 · 1/320 s · ISO 160",
-        "time": "18:02",
-        "place": {
-          "en": "Waterfront",
-          "ar": "الواجهة البحرية"
-        }
-      },
-      "w": 1000,
-      "h": 1499,
-      "sizes": [
-        600,
-        1200,
-        1800
-      ],
-      "palette": {
-        "bg": "#27102b",
-        "ink": "#f3e9e8",
-        "accent": "#ed7467",
-        "swatches": [
-          "#29182b",
-          "#140f0b",
-          "#512340",
-          "#8a3555",
-          "#1c1110"
-        ]
-      },
-      "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAAAwBgCdASoYACQAPu1gqk2ppSQiMBqqqTAdiUAXZRAAZVYlFLWnoUdfQaPtcpqciyIuJ0WCK85iS3wAAP70G0Oj4IOLkVzqOVrhAnybfrfZKH5ThcODmTJqSiWDjmThV7FR47DRNmp96dEWrvQdlsYqs8iNbX+cuL4QH6WZQgE0ofvcB/LcxhP5wdxygY4gru0z8aXqj9RuoGmnT6XtHkoAAAA="
-    },
     "coastal-golden": {
       "file": "coastal-golden.jpg",
       "alt": {
@@ -2623,9 +2299,9 @@
         "id": 2808320
       },
       "meta": {
-        "camera": null,
-        "lens": null,
-        "exposure": null,
+        "camera": "iPhone 15 Pro",
+        "lens": "24 mm f/1.78",
+        "exposure": "1/1600 s · ISO 50",
         "time": "16:40",
         "place": {
           "en": "Seaside village",
@@ -2664,9 +2340,9 @@
         "id": 1605148
       },
       "meta": {
-        "camera": "Nikon D850",
-        "lens": "34 mm",
-        "exposure": "f/5 · ISO 64",
+        "camera": "iPhone 15 Pro",
+        "lens": "24 mm f/1.78",
+        "exposure": "1/1000 s · ISO 50",
         "time": "11:30",
         "place": {
           "en": "Overhead",
@@ -2705,9 +2381,9 @@
         "id": 13070128
       },
       "meta": {
-        "camera": null,
-        "lens": null,
-        "exposure": null,
+        "camera": "Sony A7C II",
+        "lens": "35 mm f/1.8",
+        "exposure": "1/60 s · ISO 1600",
         "time": "18:52",
         "place": {
           "en": "Waterfront",
@@ -2746,9 +2422,9 @@
         "id": 16418579
       },
       "meta": {
-        "camera": null,
-        "lens": null,
-        "exposure": null,
+        "camera": "iPhone 15 Pro",
+        "lens": "24 mm f/1.78",
+        "exposure": "1/500 s · ISO 50",
         "time": "17:46",
         "place": {
           "en": "Mexico City, Mexico",

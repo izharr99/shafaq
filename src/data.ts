@@ -14,7 +14,7 @@ export interface Photo {
   file: string
   alt: L
   credit: { name: string; id: number }
-  meta: { camera: string | null; lens: string | null; exposure: string | null; time: string; place: L }
+  meta: { camera: string; lens: string; exposure: string; time: string; place: L }
   w: number
   h: number
   sizes: number[]

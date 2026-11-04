@@ -11,7 +11,7 @@ const arrow = `<svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d
 const logoMark = `<svg class="logo__mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M3 21h26" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M8 21a8 8 0 0 1 16 0" fill="var(--accent)"/></svg>`
 
 function header() {
-  const links = ['about:#about', 'work:#chapters', 'sunpath:#sunpath', 'prints:#prints']
+  const links = ['about:#about', 'work:#chapters', 'sunpath:#sunpath']
   return `
   <a class="skip" href="#chapters" data-t="ui.skip"></a>
   <header class="hdr">
@@ -154,18 +154,6 @@ function sunpath() {
   </section>`
 }
 
-function night() {
-  return `
-  <section class="night" id="night" data-theme-photo="${C.night.photo}" aria-labelledby="night-t">
-    <canvas class="night__stars" aria-hidden="true"></canvas>
-    <div class="night__copy">
-      ${T('night.kicker', 'p', 'class="kicker"')}
-      ${T('night.title', 'h2', 'class="night__title display" id="night-t" data-split')}
-    </div>
-    <div class="night__strip clip">${picture(C.night.photo, { sizes: '100vw' })}</div>
-  </section>`
-}
-
 const signature = `<svg class="sig" viewBox="0 0 220 80" aria-hidden="true"><path d="M14 58c10-6 16-30 18-44M24 40c6 0 10 2 10 8 0 8-8 12-8 6 0-10 14-22 22-22-4 10-6 24-2 26 4 2 10-8 14-16-2 8-2 14 2 14s10-10 12-16c0 6 2 10 6 10 6 0 10-12 14-16-2 4-2 8 2 8 2 0 6-2 8-6 2 6 4 8 8 6m-46-26v2m60 10c6 2 10 6 10 12 0 10-14 14-22 8 8 2 30 0 60-14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>`
 
 function meet() {
@@ -210,79 +198,6 @@ function meet() {
   </section>`
 }
 
-function collabs() {
-  return `
-  <section class="collabs" aria-labelledby="collabs-t" data-theme="neutral">
-    ${T('collabs.kicker', 'h2', 'class="kicker" id="collabs-t"')}
-    <ul class="collabs__list">
-      ${C.collabs.items.map((c, i) => `<li data-fade><span class="collabs__name">${esc(c.name)}</span><span class="collabs__kind" data-t="collabs.items.${i}.kind"></span></li>`).join('')}
-    </ul>
-  </section>`
-}
-
-function services() {
-  const s = C.services
-  return `
-  <section class="services" id="services" aria-labelledby="services-t" data-theme="neutral">
-    <div class="services__head">
-      ${T('services.kicker', 'p', 'class="kicker"')}
-      ${T('services.title', 'h2', 'class="h2 display" id="services-t" data-split')}
-    </div>
-    <ul class="svc">
-      ${s.items.map((it, i) => `
-        <li class="svc__row" data-fade>
-          <h3 class="svc__name" data-t="services.items.${i}.name"></h3>
-          <p class="svc__body" data-t="services.items.${i}.body"></p>
-          <p class="svc__price">${'prefix' in it ? `<span class="svc__pre" data-t="services.items.${i}.prefix"></span>` : ''}<bdi class="num">${usd(it.price)}</bdi><span class="svc__unit" data-t="services.items.${i}.unit"></span></p>
-          <i class="svc__line" aria-hidden="true"></i>
-        </li>`).join('')}
-    </ul>
-    ${T('services.note', 'p', 'class="note"')}
-  </section>`
-}
-
-function prints() {
-  const p = C.prints
-  const wa = (title: string) => `https://wa.me/${C.brand.whatsapp.number}?text=${encodeURIComponent(`Print: ${title}`)}`
-  return `
-  <section class="prints" id="prints" aria-labelledby="prints-t" data-theme="neutral">
-    <div class="prints__head">
-      ${T('prints.kicker', 'p', 'class="kicker"')}
-      ${T('prints.title', 'h2', 'class="h2 display" id="prints-t" data-split')}
-      ${T('prints.body', 'p', 'class="prints__body"')}
-    </div>
-    <ul class="prints__grid">
-      ${p.items.map((it, i) => `
-        <li class="print" data-fade>
-          <button class="print__mat" type="button" data-group="prints" data-index="${i}" data-photo-label="${it.photo}" data-cursor="view" style="--pw:${Math.min(100, (photo(it.photo).w / photo(it.photo).h / 0.766) * 100).toFixed(1)}%">
-            ${picture(it.photo, { sizes: '(min-width: 900px) 28vw, 80vw' })}
-          </button>
-          <div class="print__info">
-            <h3 class="print__title" data-t="prints.items.${i}.title"></h3>
-            <p class="print__ed" data-t="prints.edition"></p>
-            <ul class="print__sizes">${it.sizes.map((s) => `<li><bdi>${s.label}</bdi><bdi class="num">${usd(s.price)}</bdi></li>`).join('')}</ul>
-            <a class="link" href="${wa(it.title.en)}" target="_blank" rel="noopener">${T('prints.cta')} ${arrow}</a>
-          </div>
-        </li>`).join('')}
-    </ul>
-  </section>`
-}
-
-function feed() {
-  const f = C.feed
-  const items = f.photos
-    .map((p) => `<li><a href="${C.brand.instagram}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${picture(p, { sizes: '240px', decorative: true })}</a></li>`)
-    .join('')
-  return `
-  <section class="feed" aria-labelledby="feed-t" data-theme="neutral">
-    <div class="feed__head">
-      <h2 class="kicker" id="feed-t" data-t="feed.kicker"></h2>
-      <a class="feed__handle" href="${C.brand.instagram}" target="_blank" rel="noopener"><bdi>${esc(C.brand.handle)}</bdi> <span data-t="feed.cta"></span> ${arrow}</a>
-    </div>
-    <div class="feed__viewport"><ul class="feed__track">${items}${items}</ul></div>
-  </section>`
-}
-
 function contact() {
   const b = C.brand
   return `
@@ -297,6 +212,18 @@ function contact() {
       </a>
       <p class="contact__alt"><span data-t="contact.email"></span> <a class="link" href="mailto:${b.email}"><bdi>${b.email}</bdi></a></p>
       <p class="contact__alt"><bdi class="num">${b.whatsapp.display}</bdi></p>
+    </div>
+    <div class="offer">
+      ${T('services.title', 'h3', 'class="offer__title"')}
+      <ul class="svc">
+        ${C.services.items.map((it, i) => `
+          <li class="svc__row" data-fade>
+            <h4 class="svc__name" data-t="services.items.${i}.name"></h4>
+            <p class="svc__body" data-t="services.items.${i}.body"></p>
+            <p class="svc__price">${'prefix' in it ? `<span class="svc__pre" data-t="services.items.${i}.prefix"></span>` : ''}<bdi class="num">${usd(it.price)}</bdi><span class="svc__unit" data-t="services.items.${i}.unit"></span></p>
+          </li>`).join('')}
+      </ul>
+      ${T('services.note', 'p', 'class="note"')}
     </div>
   </section>`
 }
@@ -361,11 +288,6 @@ export function render(): string {
     ${meet()}
     ${chapters()}
     ${sunpath()}
-    ${night()}
-    ${collabs()}
-    ${services()}
-    ${prints()}
-    ${feed()}
     ${contact()}
   </main>
   ${footer()}

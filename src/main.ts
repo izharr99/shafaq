@@ -15,9 +15,7 @@ import { initReveals } from './reveal'
 import { initChapters } from './chapters'
 import { initLightbox } from './lightbox'
 import { initSunpath } from './sunpath'
-import { initNight } from './night'
 import { initCursor } from './cursor'
-import { initFeed } from './feed'
 
 const app = document.getElementById('app')!
 app.innerHTML = render()
@@ -29,11 +27,9 @@ initHero()
 initMeet()
 initChapters()
 initSunpath()
-initNight()
 initReveals()
 initLightbox()
 initCursor()
-initFeed()
 
 // Language toggle: text swaps in place, layout mirrors through logical CSS,
 // and every ScrollTrigger re-measures. A short fade hides the reflow.
