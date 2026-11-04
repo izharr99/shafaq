@@ -1,5 +1,7 @@
 # Shafaq · sky photographer portfolio template
 
+**Live demo:** https://shafaq.izhar.dev
+
 Shafaq (شفق, the glow left in the sky after sunset) is a static, bilingual (English and Arabic) portfolio template for a sky photographer: sunrises, sunsets, moonrises, storms, city lights and patterns. The photos are the hero; the interface stays out of the way and takes its colour from whatever photo is on screen.
 
 The page is deliberately short: hero, the photographer's story, six chapters, the sun path dial, and one booking section with prices. Everything on it (name, city, story, collections, photos and their metadata, prices, contact details and both languages) comes from `src/content.json`, so it can be rebranded without touching code. The photographer, brand, prices and contacts are fictional placeholders.
